@@ -2,15 +2,16 @@
 layout: page
 permalink: /talks/
 title: talks
-description: invited talks and panels
+description:
 nav: true
 nav_order: 5
 ---
 
 <!-- TODO: do this like CV yml -->
+A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
-A brief [biosketch](/bio/) for invited talks.
+
 
 - (Upcoming) Data Problems for Foundation Models (DPFM Workshop) @ ICLR 2024
     * May 11, 2024
