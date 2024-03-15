@@ -5,6 +5,8 @@ title: talks
 description:
 nav: true
 nav_order: 5
+toc:
+  sidebar: left
 ---
 
 <!-- TODO: do this like CV yml -->
