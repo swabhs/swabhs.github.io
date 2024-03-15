@@ -3,7 +3,7 @@ Our research considers language (and other) data, models that train on this data
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 caption">
-        {% include figure.liquid path="assets/img/dill-canva-transp.png" class="img-fluid rounded z-depth-1"  %}
+        {% include figure.liquid path="assets/img/2023-fall-welcome-social.jpg" class="img-fluid rounded z-depth-1"  %}
     </div>
 </div>
 
