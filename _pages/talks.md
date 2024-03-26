@@ -15,10 +15,11 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 ### invited talks
 
 
-- (Upcoming) Data Problems for Foundation Models (DPFM Workshop) @ ICLR 2024
-    * May 11, 2024
 - (Upcoming) AI Seminar at USC ISI
     * May 3, 2024
+- [NSF-OSGAI Workshop]() at Cornell Tech
+    * [Towards (Closed-Source) LLM Accountability via Logit Signatures](../assets/pdf/talks/2024-03-osgai-logits.pdf)
+    * Mar 26, 2024
 - [Data Science Seminar](https://datascience.utah.edu/seminar.html) at the University of Utah
     * Understanding LLMs through their Generative Behavior, Successes and Shortcomings
     * March 13, 2024
