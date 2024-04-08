@@ -27,6 +27,9 @@ Organize your courses by years, topics, or universities, however you like! -->
 ### guest lectures
 
 
+- Understanding LLMs through Language Generation for [USC CSCI 544: Applied Natural Language Processing](https://web-app.usc.edu/soc/syllabus/20241/30063.pdf)
+    * Host Instructor: [Xuezhe Ma](https://xuezhemax.github.io/)
+    * Fall 2024 / [Slides](../assets/pdf/talks/2024-04-04-CSCI544-Guest_Lecture-Understanding-through-Generation.pdf)
 - Introduction to Engineering for [USC Viterbi K-12 Discover Engineering](https://viterbik12.usc.edu/discoverengineering/)
     * Host Instructor: Darin Gray
     * Summer 2023 / [Slides](../assets/pdf/talks/2023-06-nlp-and-lms-viterbi-k-12-intro-to-engg.pdf)
