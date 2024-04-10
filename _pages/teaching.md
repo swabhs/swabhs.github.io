@@ -57,7 +57,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Minimum Bayes Risk decoding in [UW CSE 599 D1: Advanced Topics in Natural Language Processing](https://wammar.github.io/2018sp_uw_cse_599/)
     * Host Instructor: Waleed Ammar
     * Spring 2018
-- Dependency Parsing for [UW CSEP 517: Natural Language Processing](https://courses.cs.washington.edu/courses/csep517/18sp/)
+- Dependency Parsing for [UW CSEP 517: Natural Language Processing](https://courses.cs.washington.edu/courses/csep517/17sp/)
     * Host Instructor: Noah Smith
     * Spring 2018
 - Unsupervised Learning for [UW CSE 446: Machine Learning](https://courses.cs.washington.edu/courses/cse446/17au/)
@@ -76,7 +76,7 @@ Organize your courses by years, topics, or universities, however you like! -->
     * Dec 9, 2022
 - [Transfer Learning in Natural Language Processing](https://www.aclweb.org/anthology/N19-5004/) at NAACL 2019.
     * [Slides](https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc)
-- [Multilingual FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/node/5552/) at COLING 2018.
+- [Multilingual FrameNet](https://berkeleyfn.framenetbr.ufjf.br/COLINGtutorial) at COLING 2018.
     * [Slides](https://github.com/swabhs/coling18tutorial/)
 
 
