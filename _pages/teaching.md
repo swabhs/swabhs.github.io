@@ -39,7 +39,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 - What's in a dataset? for [USC CSCI 697: Seminar in Computer Science Research](https://catalogue.usc.edu/preview_course_nopop.php?catoid=12&coid=181925)
     * Host Instructor: Cyrus Shahabi
     * Spring 2022
-- Data Centric NLP for [UMinnesota CSCI 8980: Intro to NLP Research](https://dykang.github.io/classes/csci8980/Spring2021/)
+- Data Centric NLP for [UMinnesota CSCI 8980: Intro to NLP Research](https://dykang.github.io/classes/csci8980/S21/index.html)
     * Host Instructor: Dongyeop Kang
     * Spring 2022
 - Annotating Ambiguous NLI for [MilaNLP: Coding Aperitivo](https://milanlproc.github.io/)

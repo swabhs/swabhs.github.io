@@ -29,7 +29,7 @@ I am newly appointed as an Associate Director of the [USC Center for AI and Soci
 
 
 Previously, I was a postdoctoral investigator at the [Allen Institute for AI](https://allenai.org/) with [Yejin Choi](https://homes.cs.washington.edu/~yejin/).
-I obtained my [PhD](/assets/pdf/swabha_thesis.pdf) from [Carnegie Mellon University](https://www.lti.cs.cmu.edu/people/18088/swabha-swayamdipta), advised by [Noah Smith](https://nasmith.github.io/) and [Chris Dyer](http://www.cs.cmu.edu/~cdyer/).
+I obtained my [PhD](/assets/pdf/swabha_thesis.pdf) from [Carnegie Mellon University](https://lti.cmu.edu/people/alumni/alumni-2019/swayamdipta-swabha.html), advised by [Noah Smith](https://nasmith.github.io/) and [Chris Dyer](http://www.cs.cmu.edu/~cdyer/).
 During most of my PhD I was a visiting student at [UW](https://www.cs.washington.edu/).
 I earned my MS from [Columbia University](https://www.cs.columbia.edu/), and my bachelors from [NIT Calicut](https://minerva.nitc.ac.in/) in India.
 

@@ -41,7 +41,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 - [Los Angeles County of Education Computer Science Speaker Series](https://lacoe.k12oms.org/1542-238748)
     * The Role of Language Models in Natural Language Processing
     * Sep 22, 2023
-- Alumni <span style="color:var(--global-theme-color-contrast);font-weight:bold">Keynote:</span> CMU LTI [Student Research Symposium](https://lti.cs.cmu.edu/2023-student-research-symposium-schedule)
+- Alumni <span style="color:var(--global-theme-color-contrast);font-weight:bold">Keynote:</span> CMU LTI [Student Research Symposium]()
     * [Understanding Datasets and Explanations through 𝒱-Information](https://drive.google.com/file/d/1KjPdeB8ppfo7gtJrLsReUbCDQ6dtaITY/view?usp=sharing)
     * Aug 24, 2023
 - <span style="color:var(--global-theme-color-contrast);font-weight:bold">Keynote:</span> [Rep4NLP Workshop](https://sites.google.com/view/repl4nlp2023) @ ACL 2023
@@ -84,10 +84,10 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
     * What's in your Data? Mapping Datasets and Exploring Data Usability
     * Oct 20, 2021
 - [NERT Seminar @ Georgetown University](http://nert.georgetown.edu/)
-    * [Addressing Biases for Robust, Generalizable AI](https://youtu.be/aci8qwMufYY)
+    * Addressing Biases for Robust, Generalizable AI
     * Feb 24, 2020
 - [NLP Seminar @ Georgia Tech](https://sites.google.com/view/nlpseminar/home)
-    * [Addressing Biases for Robust, Generalizable AI](https://youtu.be/aci8qwMufYY)
+    * Addressing Biases for Robust, Generalizable AI
     * Feb 12, 2020
 - E+D Product Leads Conference: Microsoft (Virtual)
     * [Addressing Bias in Datasets and Models](../assets/pdf/talks/MS-ResponsibleAI.pdf)
