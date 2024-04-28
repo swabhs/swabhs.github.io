@@ -9,4 +9,4 @@ toc:
   sidebar: left
 ---
 
-<embed src="../assets/pdf/2024_03_Academic_CV.pdf" type="application/pdf" width="800" height="2000">
+<embed src="../assets/pdf/2024_NSF_CAREER.pdf" type="application/pdf" width="1200" height="2000">
