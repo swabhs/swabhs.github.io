@@ -18,15 +18,15 @@ social: true # includes social icons at the bottom of the page
 My goal is to design frameworks that allow robust, and reliable frameworks that allow AI systems to be broadly and safely deployed, especially in applications with societal implications. Three directions that this corresponds to are:
 
 - Safety-Critical, Robust and Reliable Frameworks for Evaluation:
-  : What cannot be measured, cannot be improved. How can we reliably compare the generative capabilities of two different models, such that our assessment is robust to minor changes in the environment? Even if two models are comparable in performance, is the behavior of one more safe for applications with societal implications? How can we evaluate new capabilities in LLMs when we do not necessarily know the correct answer?
+  : What cannot be measured, cannot be improved. How can we reliably compare the generative capabilities of language models, and ensure our assessment is robust? How can we tell if performance match can translate to application safety, especially when there are societal implications? How can we evaluate new capabilities in LLMs when we do not necessarily know the correct answer?
 
 - Understanding the Mechanisms that Drive Language Technologies:
-  : What does our evaluation reveal about the mechanisms driving the generative models of language? Are models by design limited to making some choices which can uniquely identify them? What do model geometries reveal about the processes underlying our models, and how can we improve models through different designs?
+  : Even the most reliable evaluation may not reveal much about the mechanisms driving powerful yet opaque models. What do model geometries reveal about the processes underlying our models, and how can we improve models through different designs? Are models by design limited to making some choices which can uniquely identify them?
 
 - Human-and-AI Collaboration:
   : AI technologies are designed by humans and for humans and the future of these technologies involves cooperation with humans. How can we reliably say when a model serves the general-purpose or custom utility for a human user? Where can these technologies complement human capabilities and where not?
 
-These challenges require rethinking the design of generative models as well as novel and creative techniques for measuring their performance. This brings together a broad array of empirical research with theoretical fundamentals underlying language models.
+These challenges require novel and creative techniques for redesigning generative evaluation to keep pace with model performance. This brings together a broad array of empirical research with theoretical fundamentals underlying language models.
 
 
 <!-- I am an Assistant Professor of [Computer Science in the USC Viterbi School of Engineering](https://www.cs.usc.edu/), where I lead the [DILL Lab 🌿](https://dill-lab.github.io/).
