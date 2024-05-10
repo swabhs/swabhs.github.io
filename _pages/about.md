@@ -23,8 +23,8 @@ My goal is to design frameworks that allow robust, and reliable frameworks that 
 - Understanding the Mechanisms that Drive Language Technologies:
   : Even the most reliable evaluation may not reveal much about the mechanisms driving powerful yet opaque models. What do model geometries reveal about the processes underlying our models, and how can we improve models through different designs? Are models by design limited to making some choices which can uniquely identify them?
 
-- Human-and-AI Collaboration:
-  : AI technologies are designed by humans and for humans and the future of these technologies involves cooperation with humans. How can we reliably say when a model serves the general-purpose or custom utility for a human user? Where can these technologies complement human capabilities and where not?
+- Human and AI Collaboration:
+  : AI technologies are designed by humans and for humans, the future of AI involves cooperation and collaboration with humans. How can we reliably say when a general-purpose model will serve the custom utility for a human user? Where can these technologies complement human capabilities and where not?
 
 These challenges require novel and creative techniques for redesigning generative evaluation to keep pace with model performance. This brings together a broad array of empirical research with theoretical fundamentals underlying language models.
 
