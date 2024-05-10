@@ -15,7 +15,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 ### invited talks
 
 
-- (Upcoming) AI Seminar at USC ISI
+- [USC ISI AI Seminar](https://www.isi.edu/ai/events/4684/ai-seminar-understanding-llms-through-their-generative-behavior-successes-and-shortcomings)
+    * [Understanding LLMs through their Generative Behavior, Successes and Shortcomings](https://www.youtube.com/watch?v=Za3BD9QQhzw&list=PLknXvJJeEDaIxCNrPcE7YAVaEOIVx7aCm&ab_channel=USCInformationSciencesInstitute)
     * May 3, 2024
 - [NSF-OSGAI Workshop](https://srush.github.io/osgai/) at Cornell Tech
     * [Towards (Closed-Source) LLM Accountability via Logit Signatures](../assets/pdf/talks/2024-03-osgai-logits.pdf)

@@ -13,8 +13,6 @@ toc:
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-
-
 ### classes
 
 - [USC CSCI 544: Applied NLP](../new_teaching/)
