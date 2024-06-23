@@ -29,6 +29,7 @@
       year={2024},
       abbr={Preprint},
       url={},
+      preview={nnk-means.jpg},
       abstract={As language models become more general purpose, increased attention needs to be paid to detecting out-of-distribution (OOD) instances, i.e., those not belonging to any of the distributions seen during training. Existing methods for detecting OOD data are computationally complex and storage-intensive. We propose a novel soft clustering approach for OOD detection based on non-negative kernel regression. Our approach greatly reduces computational and space complexities (up to $11\times $ improvement in inference time and 87% reduction in storage requirements) and outperforms existing approaches by up to 4 AUROC points on four different benchmarks. We also introduce an entropy-constrained version of our algorithm, which leads to further reductions in storage requirements (up to 97% lower than comparable approaches) while retaining competitive performance. Our soft clustering approach for OOD detection highlights its potential for detecting tail-end phenomena in extreme-scale data settings.},
 }
 
@@ -37,6 +38,7 @@
       author={Urja Khurana and Eric Nalisnick and Antske Fokkens and Swabha Swayamdipta},
       year={2024},
       abbr={Preprint},
+      preview={crowd-calibrator.jpg},
       url={},
       abstract={Subjective tasks in NLP have been mostly relegated to objective ones where the gold label is decided by taking the majority vote, thereby obfuscating annotator disagreement and inherent uncertainty of instances. We argue that that subjectivity should play a role in model decisions, considering a selective prediction setting. However, instead of calibrating confidence purely from the model’s perspective, we calibrate models for subjective tasks based on crowdworker agreement. Our method, Crowd-Calibrator, models annotations from crowdworkers and the distance between crowdworker distribution and the model’s own distribution over labels to inform whether the model should abstain from a decision. On two highly subjective tasks, namely hate speech detection and natural language inference (NLI), our experiments show Crowd-Calibrator either outperforming or achieving competitive performance with selective prediction baselines, highlighting the value of bringing in human decision making into model predictions.},
 }
@@ -60,7 +62,6 @@
       booktitle={Proceedings of ACL (to appear)},
       year={2024},
       selected=true,
-      preview={fn-conditioned-generation.jpeg},
       abstract={Despite the mounting evidence for generative  capabilities of language models in understanding and generating natural language, their effectiveness on explicit manipulation and generation of linguistic structures remain understudied. In this paper, we investigate the task of generating new sentences preserving a given semantic structure, following the FrameNet formalism. We propose a framework to produce novel frame-semantically annotated sentences following an overgenerate-and-filter approach. Our results show that conditioning on rich, explicit semantic information tends to produce generations with high human acceptance, under both prompting and finetuning. Nevertheless, we discover that generated frame-semantic structured data is ineffective at training data augmentation for frame-semantic role labeling. Our study concludes that while generating high-quality, semantically rich data might be within reach, their downstream utility remains to be seen, highlighting the outstanding challenges with automating linguistic annotation tasks.},
 }
 
