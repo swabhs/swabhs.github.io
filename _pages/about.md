@@ -6,7 +6,7 @@ subtitle: <a href="https://wise.usc.edu/programs/grants-and-awards/faculty/wise-
 
 profile:
   align: right
-  image: swabha_usc.jpeg
+  image: swabha.jpg
   image_circular: true # crops the image to make it circular
 
 
