@@ -7,4 +7,6 @@ nav: false
 nav_order:
 ---
 
-Syllabus coming soon
+Website coming soon. Find the (draft) syllabus below.
+
+<embed src="../assets/pdf/2024-fall-csci544-applied-nlp-syllabus.pdf" type="application/pdf" width="800" height="700">
