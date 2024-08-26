@@ -15,8 +15,8 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 ### classes
 
-- [USC CSCI 544: Applied NLP](../new_teaching/)
-    * (Upcoming) Fall 2024
+- [USC CSCI 544: Applied NLP](https://swabhs.com/f24-csci544-appliednlp/)
+    * Fall 2024
 - [USC CSCI 499: Language Models in NLP](https://swabhs.com/sp24-csci499-lm4nlp/)
     * Spring 2024
 - [USC CSCI 499: Language Models in NLP](https://swabhs.com/fall23-csci499-lm4nlp/)
