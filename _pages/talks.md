@@ -15,6 +15,10 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 ### invited talks
 
 
+- (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
+    * Dec 5, 2024
+- (Upcoming) NYU NLP/Text-as-Data Talk Series
+    * Oct 10, 2024
 - [USC ISI AI Seminar](https://www.isi.edu/ai/events/4684/ai-seminar-understanding-llms-through-their-generative-behavior-successes-and-shortcomings)
     * [Understanding LLMs through their Generative Behavior, Successes and Shortcomings](https://www.youtube.com/watch?v=Za3BD9QQhzw&list=PLknXvJJeEDaIxCNrPcE7YAVaEOIVx7aCm&ab_channel=USCInformationSciencesInstitute)
     * May 3, 2024
@@ -124,6 +128,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### panels
 
+- (Upcoming) USC School of Cinematic Arts - Alfred P. Sloan Foundation Science Seminar
+    * Oct 18, 2024
 - Limitations of Large Language Models at the [RepL4NLP Workshop](https://sites.google.com/view/repl4nlp2023/home) @ ACL 2023
     * Jul 13, 2023
 - Generative AI and Education Roundtable @ [ASEE 2023](https://www.asee.org/events/Conferences-and-Meetings/2023-Annual-Conference)
