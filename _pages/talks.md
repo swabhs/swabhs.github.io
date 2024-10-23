@@ -129,7 +129,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### panels
 
-- (Upcoming) USC School of Cinematic Arts - Alfred P. Sloan Foundation Science Seminar
+- [USC School of Cinematic Arts](https://cinema.usc.edu/) - [Alfred P. Sloan Foundation Science Seminar](https://cinema.usc.edu/events/event.cfm?id=71837)
     * Oct 18, 2024
 - Limitations of Large Language Models at the [RepL4NLP Workshop](https://sites.google.com/view/repl4nlp2023/home) @ ACL 2023
     * Jul 13, 2023
