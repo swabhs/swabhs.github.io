@@ -14,11 +14,12 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
-
+- (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
+    * TBD
 - (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
     * Dec 5, 2024
 - (Upcoming) NYU NLP/Text-as-Data Talk Series
-    * Oct 10, 2024
+    * Nov 7, 2024
 - [USC ISI AI Seminar](https://www.isi.edu/ai/events/4684/ai-seminar-understanding-llms-through-their-generative-behavior-successes-and-shortcomings)
     * [Understanding LLMs through their Generative Behavior, Successes and Shortcomings](https://www.youtube.com/watch?v=Za3BD9QQhzw&list=PLknXvJJeEDaIxCNrPcE7YAVaEOIVx7aCm&ab_channel=USCInformationSciencesInstitute)
     * May 3, 2024
