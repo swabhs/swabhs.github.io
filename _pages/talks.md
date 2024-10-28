@@ -15,7 +15,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 ### invited talks
 
 - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
-    * TBD
+    * Jan 10, 2025
 - (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
     * Dec 5, 2024
 - (Upcoming) NYU NLP/Text-as-Data Talk Series
