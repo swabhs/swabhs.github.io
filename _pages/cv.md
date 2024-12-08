@@ -8,4 +8,4 @@ nav_order: 5
 # description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
 ---
 
-<embed src="../assets/pdf/2024_09_Academic_CV.pdf" type="application/pdf" width="800" height="700">
+<embed src="../assets/pdf/2024_12_Academic_CV.pdf" type="application/pdf" width="800" height="700">
