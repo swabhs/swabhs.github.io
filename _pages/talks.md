@@ -14,11 +14,24 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
+<!-- - (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
+    * Fall 2025 -->
 - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
-    * Jan 10, 2025
-- (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
-    * Dec 5, 2024
-- (Upcoming) NYU NLP/Text-as-Data Talk Series
+    * May 9, 2025
+- (Upcoming) Stanford NLP Seminar
+    * May 1, 2025
+- (Upcoming) Bloomberg Seminar
+    * Apr 10, 2025
+- (Upcoming) Simons Institute: [The Future of LMs and Transformers](https://simons.berkeley.edu/workshops/future-language-models-transformers/schedule#simons-tabs)
+    * Apr 4, 2025
+- [Simons Research Fellow](https://simons.berkeley.edu/programs/special-year-large-language-models-transformers-part-2) Introductions
+    * Rethinking the Evaluation of Large Language Models
+    * Feb 14, 2024
+- UC Berkeley AI and Society Mixer
+    * Building LLM Assistants for Social Workers
+    * Feb 12, 2024
+- [NYU NLP/Text-as-Data Talk Series](https://cds.nyu.edu/nlp-and-text-as-data-speaker-series/)
+    * [Ensuring Safety and Accountability in LLMs, Pre- and Post-Training](https://drive.google.com/file/d/1kxn-US_pfmOYQD-Ylut2s2UYMhlsOki5/view)
     * Nov 7, 2024
 - [USC ISI AI Seminar](https://www.isi.edu/ai/events/4684/ai-seminar-understanding-llms-through-their-generative-behavior-successes-and-shortcomings)
     * [Understanding LLMs through their Generative Behavior, Successes and Shortcomings](https://www.youtube.com/watch?v=Za3BD9QQhzw&list=PLknXvJJeEDaIxCNrPcE7YAVaEOIVx7aCm&ab_channel=USCInformationSciencesInstitute)
