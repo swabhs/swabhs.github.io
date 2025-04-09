@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://wise.usc.edu/programs/grants-and-awards/faculty/wise-gabilan-assistant-professorship/">Gabilan</a> Assistant Professor • <a href="https://cs.usc.edu/">USC Viterbi CS</a> • Associate Director of USC <a href="https://cais.usc.edu/">Center for AI and Society</a> • Amazon Visiting Academic • <a href="https://nlp.usc.edu">USC NLP</a>
+subtitle: <a href="https://wise.usc.edu/programs/grants-and-awards/faculty/wise-gabilan-assistant-professorship/">Gabilan</a> Assistant Professor • <a href="https://cs.usc.edu/">USC Viterbi CS</a> • Associate Director of USC <a href="https://cais.usc.edu/">Center for AI and Society</a> • Amazon Scholar • <a href="https://nlp.usc.edu">USC NLP</a>
 
 profile:
   align: right

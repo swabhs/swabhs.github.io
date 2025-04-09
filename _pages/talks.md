@@ -20,9 +20,11 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
     * May 9, 2025
 - (Upcoming) Stanford NLP Seminar
     * May 1, 2025
-- (Upcoming) Bloomberg Seminar
+- (Upcoming) Bloomberg CTO Data Science Speaker Series
+    * [Rethinking Language Model Evaluation](./)
     * Apr 10, 2025
-- (Upcoming) Simons Institute: [The Future of LMs and Transformers](https://simons.berkeley.edu/workshops/future-language-models-transformers/schedule#simons-tabs)
+- Simons Institute: [The Future of LMs and Transformers](https://simons.berkeley.edu/workshops/future-language-models-transformers/schedule#simons-tabs)
+    * [The Future of LMs: A Perspective on Evaluation](https:/drive.google.com/file/d/1EiVvfaB8_Cgqx8w7pY78YC34st_SHyzd/view?usp=sharing)
     * Apr 4, 2025
 - [Simons Research Fellow](https://simons.berkeley.edu/programs/special-year-large-language-models-transformers-part-2) Introductions
     * Rethinking the Evaluation of Large Language Models
