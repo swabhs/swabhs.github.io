@@ -15,6 +15,9 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 ### classes
 
+- (Upcoming) USC CSCI 444: Natural Language Processing
+    * Website coming soon
+    * Fall 2025
 - [USC CSCI 544: Applied NLP](https://swabhs.com/f24-csci544-appliednlp/)
     * Fall 2024
 - [USC CSCI 499: Language Models in NLP](https://swabhs.com/sp24-csci499-lm4nlp/)

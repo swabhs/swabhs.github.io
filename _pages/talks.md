@@ -16,12 +16,12 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 <!-- - (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
     * Fall 2025 -->
-- (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
+<!-- - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
     * May 9, 2025
 - (Upcoming) Stanford NLP Seminar
-    * May 1, 2025
-- (Upcoming) Bloomberg CTO Data Science Speaker Series
-    * [Rethinking Language Model Evaluation](./)
+    * May 1, 2025 -->
+- Bloomberg CTO Data Science Speaker Series
+    * Rethinking Language Model Evaluation
     * Apr 10, 2025
 - Simons Institute: [The Future of LMs and Transformers](https://simons.berkeley.edu/workshops/future-language-models-transformers/schedule#simons-tabs)
     * [The Future of LMs: A Perspective on Evaluation](https:/drive.google.com/file/d/1EiVvfaB8_Cgqx8w7pY78YC34st_SHyzd/view?usp=sharing)
@@ -144,6 +144,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### panels
 
+- LA Times Book Festival - [The Power and Possibilities of AI](https://events.latimes.com/festivalofbooks/schedule-2/?eventId%5Bdf07e1b3-4a35-4160-8bd9-b1f1fbd70a16%5D=1843cefb-232d-41c2-86b9-bca28231c694)
+    * Apr 27, 2025
 - [USC School of Cinematic Arts](https://cinema.usc.edu/) - [Alfred P. Sloan Foundation Science Seminar](https://cinema.usc.edu/events/event.cfm?id=71837)
     * Oct 18, 2024
 - Limitations of Large Language Models at the [RepL4NLP Workshop](https://sites.google.com/view/repl4nlp2023/home) @ ACL 2023
