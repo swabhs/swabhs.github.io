@@ -24,7 +24,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
     * Rethinking Language Model Evaluation
     * Apr 10, 2025
 - Simons Institute: [The Future of LMs and Transformers](https://simons.berkeley.edu/workshops/future-language-models-transformers/schedule#simons-tabs)
-    * [The Future of LMs: A Perspective on Evaluation](https:/drive.google.com/file/d/1EiVvfaB8_Cgqx8w7pY78YC34st_SHyzd/view?usp=sharing)
+    * [The Future of LMs: A Perspective on Evaluation](https://www.youtube.com/watch?v=wcPRW2YOqkA&list=PLgKuh-lKre13F6duXbU7e8dJqXnRpJuxy&index=7&ab_channel=SimonsInstitute)
     * Apr 4, 2025
 - [Simons Research Fellow](https://simons.berkeley.edu/programs/special-year-large-language-models-transformers-part-2) Introductions
     * Rethinking the Evaluation of Large Language Models
