@@ -14,12 +14,14 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
-<!-- - (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
-    * Fall 2025 -->
-<!-- - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
-    * May 9, 2025
+<!-- - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/) May 9, 2025 -->
+
 - (Upcoming) Stanford NLP Seminar
-    * May 1, 2025 -->
+    * Nov 06, 2025
+- (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
+    * Oct 16, 2025
+- (Upcoming) USC School of Social Work
+    * Sep 16, 2025
 - Bloomberg CTO Data Science Speaker Series
     * Rethinking Language Model Evaluation
     * Apr 10, 2025
@@ -144,6 +146,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### panels
 
+- (Upcoming) Advancing research, practice, and policy @ [USC HPRI](https://hpri.usc.edu/) Flourishing and Empowerment Summit
+    * Sep 11, 2025
 - LA Times Book Festival - [The Power and Possibilities of AI](https://events.latimes.com/festivalofbooks/schedule-2/?eventId%5Bdf07e1b3-4a35-4160-8bd9-b1f1fbd70a16%5D=1843cefb-232d-41c2-86b9-bca28231c694)
     * Apr 27, 2025
 - [USC School of Cinematic Arts](https://cinema.usc.edu/) - [Alfred P. Sloan Foundation Science Seminar](https://cinema.usc.edu/events/event.cfm?id=71837)
