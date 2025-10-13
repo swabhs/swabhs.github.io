@@ -1,6 +1,27 @@
 ---
 ---
 
+@article{yauney2025reliablelanguagemodelmicrobenchmarking,
+      title={How Reliable is Language Model Micro-Benchmarking?},
+      author={Gregory Yauney and Shahzaib Saqib Warraich and Swabha Swayamdipta},
+      year={2025},
+      journal={Under Review},
+      abbr={arXiv},
+      code={https://github.com/dill-lab/micro-benchmarking-reliability},
+      url={https://arxiv.org/abs/2510.08730},
+      abstract={Micro-benchmarking offers a solution to the often prohibitive time and cost of language model development: evaluate on a very small subset of existing benchmarks. Can these micro-benchmarks, however, rank models as consistently as the full benchmarks they replace? And can they rank models more consistently than selecting a random subset of data points? In many scenarios, we find that the answer is no. We introduce a meta-evaluation measure for micro-benchmarking which investigates how well a micro-benchmark can rank two models as a function of their performance difference on the full benchmark. This approach can determine which model pairs can be ranked correctly by a micro-benchmark, allowing for a finer-grained analysis of the trade-off between micro-benchmark size and reliability. Prior work has suggested selecting as few as 10 examples; we find that no micro-benchmarking method can consistently rank model pairs 3.5 points of accuracy apart on MMLU-Pro or 4 points apart on BIG-bench Hard. In order to consistently rank model pairs with relatively similar performances, we show that often as many as 250 examples must be selected, at which point random sampling is competitive with existing micro-benchmarking methods. When comparing only 8B instruction-tuned models on MMLU-Pro micro-benchmarks with 25 examples, we find that more than half of pairwise comparisons are not likely to be preserved. Our work provides actionable guidance for both micro-benchmark users and developers in navigating the trade-off between evaluation efficiency and reliability.},
+}
+
+@article{he2025believingseeingqualityscores,
+      title={Believing without Seeing: Quality Scores for Contextualizing Vision-Language Model Explanations},
+      author={Keyu He and Tejas Srinivasan and Brihi Joshi and Xiang Ren and Jesse Thomason and Swabha Swayamdipta},
+      year={2025},
+      journal={Under Review},
+      abbr={arXiv},
+      url={https://arxiv.org/abs/2509.25844},
+      abstract={When people query Vision-Language Models (VLMs) but cannot see the accompanying visual context (e.g. for blind and low-vision users), augmenting VLM predictions with natural language explanations can signal which model predictions are reliable. However, prior work has found that explanations can easily convince users that inaccurate VLM predictions are correct. To remedy undesirable overreliance on VLM predictions, we propose evaluating two complementary qualities of VLM-generated explanations via two quality scoring functions. We propose Visual Fidelity, which captures how faithful an explanation is to the visual context, and Contrastiveness, which captures how well the explanation identifies visual details that distinguish the model's prediction from plausible alternatives. On the A-OKVQA and VizWiz tasks, these quality scoring functions are better calibrated with model correctness than existing explanation qualities. We conduct a user study in which participants have to decide whether a VLM prediction is accurate without viewing its visual context. We observe that showing our quality scores alongside VLM explanations improves participants' accuracy at predicting VLM correctness by 11.1%, including a 15.4% reduction in the rate of falsely believing incorrect predictions. These findings highlight the utility of explanation quality scores in fostering appropriate reliance on VLM predictions.},
+}
+
 @article{nazir2025betterlanguagemodelinversion,
       title={{Better Language Model Inversion by Compactly Representing Next-Token Distributions}},
       author={Murtaza Nazir and Matthew Finlayson and John X. Morris and Xiang Ren and Swabha Swayamdipta},
@@ -64,15 +85,6 @@
       journal={NeurIPS Workshop on LLM Evaluation},
       abbr={NeurIPS},
       url={./},
-}
-
-@article{he2025believingseeingqualityscores,
-      title={Believing without Seeing: Quality Scores for Contextualizing Vision-Language Model Explanations},
-      author={Keyu He and Tejas Srinivasan and Brihi Joshi and Xiang Ren and Jesse Thomason and Swabha Swayamdipta},
-      year={2025},
-      journal={Under Review},
-      abbr={arXiv},
-      url={https://arxiv.org/abs/2509.25844},
 }
 
 @article{kulkarni2025evaluatingevaluationmetrics,
