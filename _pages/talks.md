@@ -17,10 +17,12 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 <!-- - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/) May 9, 2025 -->
 
 - (Upcoming) Stanford NLP Seminar
-    * Nov 06, 2025
-- (Upcoming) Cornell Tech Learning Machine Seminar Series (LMSS)
+    * Jan 22, 2026
+- [Cornell Tech Learning Machine Seminar Series (LMSS)](https://lmss.tech.cornell.edu/)
+    * [Simple Learning Recipes for Safe and Accountable Language Models]()
     * Oct 16, 2025
-- (Upcoming) USC School of Social Work
+- USC School of Social Work
+    * [The heaviest data: Can AI alleviate the weight of suicide mortality research?]()
     * Sep 16, 2025
 - Bloomberg CTO Data Science Speaker Series
     * Rethinking Language Model Evaluation
