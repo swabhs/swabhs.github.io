@@ -14,8 +14,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
-<!-- - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/) May 9, 2025 -->
-
+- (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
+    * Jan 30, 2025
 - (Upcoming) Stanford NLP Seminar
     * Jan 22, 2026
 - [Cornell Tech Learning Machine Seminar Series (LMSS)](https://lmss.tech.cornell.edu/)
@@ -25,16 +25,16 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
     * [The heaviest data: Can AI alleviate the weight of suicide mortality research?]()
     * Sep 16, 2025
 - Bloomberg CTO Data Science Speaker Series
-    * Rethinking Language Model Evaluation
+    * [Rethinking Language Model Evaluation]()
     * Apr 10, 2025
 - Simons Institute: [The Future of LMs and Transformers](https://simons.berkeley.edu/workshops/future-language-models-transformers/schedule#simons-tabs)
     * [The Future of LMs: A Perspective on Evaluation](https://www.youtube.com/watch?v=wcPRW2YOqkA&list=PLgKuh-lKre13F6duXbU7e8dJqXnRpJuxy&index=7&ab_channel=SimonsInstitute)
     * Apr 4, 2025
 - [Simons Research Fellow](https://simons.berkeley.edu/programs/special-year-large-language-models-transformers-part-2) Introductions
-    * Rethinking the Evaluation of Large Language Models
+    * [Rethinking the Evaluation of Large Language Models]()
     * Feb 14, 2024
 - UC Berkeley AI and Society Mixer
-    * Building LLM Assistants for Social Workers
+    * [Building LLM Assistants for Social Workers]()
     * Feb 12, 2024
 - [NYU NLP/Text-as-Data Talk Series](https://cds.nyu.edu/nlp-and-text-as-data-speaker-series/)
     * [Ensuring Safety and Accountability in LLMs, Pre- and Post-Training](https://drive.google.com/file/d/1kxn-US_pfmOYQD-Ylut2s2UYMhlsOki5/view)

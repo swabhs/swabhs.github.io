@@ -1,6 +1,17 @@
 ---
 ---
 
+@article{finlayson2025languagemodelforgeryresistantsignature,
+      title={Every Language Model Has a Forgery-Resistant Signature},
+      author={Matthew Finlayson and Xiang Ren and Swabha Swayamdipta},
+      year={2025},
+      journal={Under Review},
+      abbr={arXiv},
+      selected=true,
+      url={https://arxiv.org/abs/2510.14086},
+      abstract={The ubiquity of closed-weight language models with public-facing APIs has generated interest in forensic methods, both for extracting hidden model details (e.g., parameters) and for identifying models by their outputs. One successful approach to these goals has been to exploit the geometric constraints imposed by the language model architecture and parameters. In this work, we show that a lesser-known geometric constraint--namely, that language model outputs lie on the surface of a high-dimensional ellipse--functions as a signature for the model and can be used to identify the source model of a given output. This ellipse signature has unique properties that distinguish it from existing model-output association methods like language model fingerprints. In particular, the signature is hard to forge: without direct access to model parameters, it is practically infeasible to produce log-probabilities (logprobs) on the ellipse. Secondly, the signature is naturally occurring, since all language models have these elliptical constraints. Thirdly, the signature is self-contained, in that it is detectable without access to the model inputs or the full weights. Finally, the signature is compact and redundant, as it is independently detectable in each logprob output from the model. We evaluate a novel technique for extracting the ellipse from small models and discuss the practical hurdles that make it infeasible for production-scale models. Finally, we use ellipse signatures to propose a protocol for language model output verification, analogous to cryptographic symmetric-key message authentication systems.},
+}
+
 @article{yauney2025reliablelanguagemodelmicrobenchmarking,
       title={How Reliable is Language Model Micro-Benchmarking?},
       author={Gregory Yauney and Shahzaib Saqib Warraich and Swabha Swayamdipta},
@@ -69,11 +80,12 @@
 }
 
 @article{ranjit2025nvdrs,
-      title={Designing and Validating Intervention Opportunities for Suicide Prevention with Language Model Assistants},
+      title={Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants},
       author={Jaspreet Ranjit and Hyundong J. Cho and Claire J. Smerdon and Yoonsoo Nam and Myles Phung and Jonathan May and John R. Blosnich and Swabha Swayamdipta},
       year={2025},
       journal={EAAMO / NeurIPS Workshop on GenAI for Health},
       abbr={NeurIPS},
+      selected=true,
       code={https://dill-lab.github.io/interventions_lm_assistants/},
       url={https://arxiv.org/abs/2508.18541},
       abstract={The National Violent Death Reporting System (NVDRS) documents information about suicides in the United States, including free text narratives (e.g., circumstances surrounding a suicide). In a demanding public health data pipeline, annotators manually extract structured information from death investigation records following extensive guidelines developed painstakingly by experts. In this work, we facilitate data-driven insights from the NVDRS data to support the development of novel suicide interventions by investigating the value of language models (LMs) as efficient assistants to these (a) data annotators and (b) experts. We find that LM predictions match existing data annotations about 85% of the time across 50 NVDRS variables. In the cases where the LM disagrees with existing annotations, expert review reveals that LM assistants can surface annotation discrepancies 38% of the time. Finally, we introduce a human-in-the-loop algorithm to assist experts in efficiently building and refining guidelines for annotating new variables by allowing them to focus only on providing feedback for incorrect LM predictions. We apply our algorithm to a real-world case study for a new variable that characterizes victim interactions with lawyers and demonstrate that it achieves comparable annotation quality with a laborious manual approach. Our findings provide evidence that LMs can serve as effective assistants to public health researchers who handle sensitive data in high-stakes scenarios.},
