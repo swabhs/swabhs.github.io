@@ -17,13 +17,13 @@ social: true # includes social icons at the bottom of the page
 
 My goal is to design frameworks that allow robust, and reliable frameworks that allow AI systems to be broadly and safely deployed, especially in applications with societal implications. Three directions that this corresponds to are:
 
-- Safety-Critical, Robust and Reliable Frameworks for Evaluation:
+- Safety-Critical, Robust and Reliable Language Models:
   : What cannot be measured, cannot be improved. How can we reliably compare the generative capabilities of language models, and ensure our assessment is robust? How can we tell if performance match can translate to application safety, especially when there are societal implications? How can we evaluate new capabilities in LLMs when we do not necessarily know the correct answer?
 
-- Understanding the Mechanisms that Drive Language Technologies:
+- Understanding the Mechanisms that Drive Language Models:
   : Even the most reliable evaluation may not reveal much about the mechanisms driving powerful yet opaque models. What do model geometries reveal about the processes underlying our models, and how can we improve models through different designs? Are models by design limited to making some choices which can uniquely identify them?
 
-- Human and AI Collaboration:
+- Private and Safe Human-AI Collaboration for High-Stakes Applications:
   : AI technologies are designed by humans and for humans, the future of AI involves cooperation and collaboration with humans. How can we say when a general-purpose model will reliably serve the custom utility for a human user? Where can these technologies complement human capabilities and where not?
 
 These challenges require novel and creative techniques for redesigning generative evaluation to keep pace with model performance. This brings together a broad array of empirical research with theoretical fundamentals underlying language models.
