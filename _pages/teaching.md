@@ -28,10 +28,10 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 ### guest lectures
 
-- (Upcoming) Research Overview for [USC CS 697: Seminar in Computer Science Research](https://catalogue.usc.edu/preview_course_nopop.php?catoid=12&coid=181925)
+- Research Overview for [USC CS 697: Seminar in Computer Science Research](https://catalogue.usc.edu/preview_course_nopop.php?catoid=12&coid=181925)
     * Host Instructor: Maja Matarić
     * Fall 2025
-- (Upcoming) Guest Lecture [USC CSCI 544: Applied Natural Language Processing](https://sites.google.com/usc.edu/csci544-2025f)
+- Guest Lecture [USC CSCI 544: Applied Natural Language Processing](https://sites.google.com/usc.edu/csci544-2025f)
     * Host Instructor: [Jieyu Zhao](https://jyzhao.net/)
     * Fall 2025
 - Introduction to LLMs in Introduction to Engineering for [USC Viterbi K-12 Discover Engineering](https://viterbik12.usc.edu/discoverengineering/)

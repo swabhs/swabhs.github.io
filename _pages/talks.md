@@ -17,6 +17,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
     * Jan 30, 2025
 - (Upcoming) Stanford NLP Seminar
+    * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
     * Jan 22, 2026
 - [Cornell Tech Learning Machine Seminar Series (LMSS)](https://lmss.tech.cornell.edu/)
     * [Simple Learning Recipes for Safe and Accountable Language Models]()
@@ -32,10 +33,10 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
     * Apr 4, 2025
 - [Simons Research Fellow](https://simons.berkeley.edu/programs/special-year-large-language-models-transformers-part-2) Introductions
     * [Rethinking the Evaluation of Large Language Models]()
-    * Feb 14, 2024
+    * Feb 14, 2025
 - UC Berkeley AI and Society Mixer
     * [Building LLM Assistants for Social Workers]()
-    * Feb 12, 2024
+    * Feb 12, 2025
 - [NYU NLP/Text-as-Data Talk Series](https://cds.nyu.edu/nlp-and-text-as-data-speaker-series/)
     * [Ensuring Safety and Accountability in LLMs, Pre- and Post-Training](https://drive.google.com/file/d/1kxn-US_pfmOYQD-Ylut2s2UYMhlsOki5/view)
     * Nov 7, 2024
@@ -148,7 +149,9 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### panels
 
-- (Upcoming) Advancing research, practice, and policy @ [USC HPRI](https://hpri.usc.edu/) Flourishing and Empowerment Summit
+- Technology Panel on AI @ [AI IMPACT Pre-Summit Event IIT Alumni Socal](https://www.iit-socal.org/ai-impact-pre-summit-event)
+    * Jan 15, 2026
+- Advancing research, practice, and policy @ [USC HPRI](https://hpri.usc.edu/) Flourishing and Empowerment Summit
     * Sep 11, 2025
 - LA Times Book Festival - [The Power and Possibilities of AI](https://events.latimes.com/festivalofbooks/schedule-2/?eventId%5Bdf07e1b3-4a35-4160-8bd9-b1f1fbd70a16%5D=1843cefb-232d-41c2-86b9-bca28231c694)
     * Apr 27, 2025
