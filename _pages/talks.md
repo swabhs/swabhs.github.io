@@ -16,6 +16,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 - (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
     * Jan 30, 2025
+    * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
 - Stanford NLP Seminar
     * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
     * Jan 22, 2026
