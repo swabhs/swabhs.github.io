@@ -18,6 +18,7 @@
       year={2026},
       journal={Proc. of ICLR},
       abbr={ICLR},
+      selected=true,
       code={https://github.com/dill-lab/micro-benchmarking-reliability},
       url={https://arxiv.org/abs/2510.08730},
       abstract={Micro-benchmarking offers a solution to the often prohibitive time and cost of language model development: evaluate on a very small subset of existing benchmarks. Can these micro-benchmarks, however, rank models as consistently as the full benchmarks they replace? And can they rank models more consistently than selecting a random subset of data points? In many scenarios, we find that the answer is no. We introduce a meta-evaluation measure for micro-benchmarking which investigates how well a micro-benchmark can rank two models as a function of their performance difference on the full benchmark. This approach can determine which model pairs can be ranked correctly by a micro-benchmark, allowing for a finer-grained analysis of the trade-off between micro-benchmark size and reliability. Prior work has suggested selecting as few as 10 examples; we find that no micro-benchmarking method can consistently rank model pairs 3.5 points of accuracy apart on MMLU-Pro or 4 points apart on BIG-bench Hard. In order to consistently rank model pairs with relatively similar performances, we show that often as many as 250 examples must be selected, at which point random sampling is competitive with existing micro-benchmarking methods. When comparing only 8B instruction-tuned models on MMLU-Pro micro-benchmarks with 25 examples, we find that more than half of pairwise comparisons are not likely to be preserved. Our work provides actionable guidance for both micro-benchmark users and developers in navigating the trade-off between evaluation efficiency and reliability.},
@@ -34,15 +35,7 @@
       abstract={Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We examined: (1) which dimensions of meaningful work do workers associate with tasks exposed to AI; and (2) how do the traits of existing AI systems compare to the traits workers want. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps: developers report emphasizing politeness, strictness, and imagination in system design; by contrast, workers prefer systems that are straightforward, tolerant, and practical. To address these gaps, we call for AI whose design explicitly centers meaningful work and worker needs, proposing a five-part research agenda.}
 }
 
-@article{he2025believingseeingqualityscores,
-      title={Believing without Seeing: Quality Scores for Contextualizing Vision-Language Model Explanations},
-      author={Keyu He and Tejas Srinivasan and Brihi Joshi and Xiang Ren and Jesse Thomason and Swabha Swayamdipta},
-      year={2025},
-      journal={Under Review},
-      abbr={arXiv},
-      url={https://arxiv.org/abs/2509.25844},
-      abstract={When people query Vision-Language Models (VLMs) but cannot see the accompanying visual context (e.g. for blind and low-vision users), augmenting VLM predictions with natural language explanations can signal which model predictions are reliable. However, prior work has found that explanations can easily convince users that inaccurate VLM predictions are correct. To remedy undesirable overreliance on VLM predictions, we propose evaluating two complementary qualities of VLM-generated explanations via two quality scoring functions. We propose Visual Fidelity, which captures how faithful an explanation is to the visual context, and Contrastiveness, which captures how well the explanation identifies visual details that distinguish the model's prediction from plausible alternatives. On the A-OKVQA and VizWiz tasks, these quality scoring functions are better calibrated with model correctness than existing explanation qualities. We conduct a user study in which participants have to decide whether a VLM prediction is accurate without viewing its visual context. We observe that showing our quality scores alongside VLM explanations improves participants' accuracy at predicting VLM correctness by 11.1%, including a 15.4% reduction in the rate of falsely believing incorrect predictions. These findings highlight the utility of explanation quality scores in fostering appropriate reliance on VLM predictions.},
-}
+
 
 @article{nazir2025betterlanguagemodelinversion,
       title={{Better Language Model Inversion by Compactly Representing Next-Token Distributions}},
@@ -57,6 +50,38 @@
       abstract={{Language model inversion seeks to recover hidden prompts using only language model outputs. This capability has implications for security and accountability in language model deployments, such as leaking private information from an API-protected language model's system message. We propose a new method -- prompt inversion from logprob sequences (PILS) -- that recovers hidden prompts by gleaning clues from the model's next-token probabilities over the course of multiple generation steps. Our method is enabled by a key insight: The vector-valued outputs of a language model occupy a low-dimensional subspace. This enables us to losslessly compress the full next-token probability distribution over multiple generation steps using a linear map, allowing more output information to be used for inversion. Our approach yields massive gains over previous state-of-the-art methods for recovering hidden prompts, achieving 2--3.5 times higher exact recovery rates across test sets, in one case increasing the recovery rate from 17% to 60%. Our method also exhibits surprisingly good generalization behavior; for instance, an inverter trained on 16 generations steps gets 5--27 points higher prompt recovery when we increase the number of steps to 32 at test time. Furthermore, we demonstrate strong performance of our method on the more challenging task of recovering hidden system messages. We also analyze the role of verbatim repetition in prompt recovery and propose a new method for cross-family model transfer for logit-based inverters. Our findings show that next-token probabilities are a considerably more vulnerable attack surface for inversion attacks than previously known.}}
 }
 
+@article{ranjit2025nvdrs,
+      title={Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants},
+      author={Jaspreet Ranjit and Hyundong J. Cho and Claire J. Smerdon and Yoonsoo Nam and Myles Phung and Jonathan May and John R. Blosnich and Swabha Swayamdipta},
+      year={2025},
+      journal={EAAMO / NeurIPS Workshop on GenAI for Health},
+      abbr={arXiv},
+      selected=true,
+      code={https://dill-lab.github.io/interventions_lm_assistants/},
+      url={https://arxiv.org/abs/2508.18541},
+      abstract={The National Violent Death Reporting System (NVDRS) documents information about suicides in the United States, including free text narratives (e.g., circumstances surrounding a suicide). In a demanding public health data pipeline, annotators manually extract structured information from death investigation records following extensive guidelines developed painstakingly by experts. In this work, we facilitate data-driven insights from the NVDRS data to support the development of novel suicide interventions by investigating the value of language models (LMs) as efficient assistants to these (a) data annotators and (b) experts. We find that LM predictions match existing data annotations about 85% of the time across 50 NVDRS variables. In the cases where the LM disagrees with existing annotations, expert review reveals that LM assistants can surface annotation discrepancies 38% of the time. Finally, we introduce a human-in-the-loop algorithm to assist experts in efficiently building and refining guidelines for annotating new variables by allowing them to focus only on providing feedback for incorrect LM predictions. We apply our algorithm to a real-world case study for a new variable that characterizes victim interactions with lawyers and demonstrate that it achieves comparable annotation quality with a laborious manual approach. Our findings provide evidence that LMs can serve as effective assistants to public health researchers who handle sensitive data in high-stakes scenarios.},
+}
+
+@article{surana2025chemref,
+      title={{ChEmREF: Evaluating Language Model Readiness for Chemical Emergency Response Assistance}},
+      author={Risha Surana and Qinyuan Ye and Swabha Swayamdipta},
+      year={2025},
+      journal={NeurIPS Workshop on LLM Evaluation},
+      abbr={arXiv},
+      url={https://arxiv.org/abs/2511.10027},
+      abstract={Emergency responders managing hazardous material HAZMAT incidents face critical, time-sensitive decisions, manually navigating extensive chemical guidelines. We investigate whether today's language models can assist responders by rapidly and reliably understanding critical information, identifying hazards, and providing responses. We introduce the Chemical Emergency Response Evaluation Framework (ChEmREF), a new benchmark comprising questions on 1,035 HAZMAT chemicals from the Emergency Response Guidebook and the PubChem Database. ChEmREF is organized into three tasks: (1) translation of chemical representation between structured and unstructured forms (e.g., converting C2H6O to ethanol), (2) emergency response generation (e.g., recommending appropriate evacuation distances) and (3) domain knowledge question answering from chemical safety and certification exams. Our best evaluated models received an exact match of 68.0% on unstructured HAZMAT chemical representation translation, a LLM Judge score of 52.7% on incident response recommendations, and a multiple-choice accuracy of 63.9% on HAMZAT examinations. These findings suggest that while language models show potential to assist emergency responders in various tasks, they require careful human oversight due to their current limitations.}
+}
+
+@article{liu2025evaluationimperfectbenchmarksratings,
+      title={Evaluation Under Imperfect Benchmarks and Ratings: A Case Study in Text Simplification},
+      author={Joseph Liu and Yoonsoo Nam and Xinyue Cui and Swabha Swayamdipta},
+      year={2025},
+      journal={NeurIPS Workshop on LLM Evaluation},
+      url={https://arxiv.org/abs/2504.09394},
+      abbr={arXiv},
+      abstract={Despite the successes of language models, their evaluation remains a daunting challenge for new and existing tasks. We consider the task of text simplification, commonly used to improve information accessibility, where evaluation faces two major challenges. First, the data in existing benchmarks might not reflect the capabilities of current language models on the task, often containing disfluent, incoherent, or simplistic examples. Second, existing human ratings associated with the benchmarks often contain a high degree of disagreement, resulting in inconsistent ratings; nevertheless, existing metrics still have to show higher correlations with these imperfect ratings. As a result, evaluation for the task is not reliable and does not reflect expected trends (e.g., more powerful models being assigned higher scores). We address these challenges for the task of text simplification through three contributions. First, we introduce SynthSimpliEval, a synthetic benchmark for text simplification featuring simplified sentences generated by models of varying sizes. Through a pilot study, we show that human ratings on our benchmark exhibit high inter-annotator agreement and reflect the expected trend: larger models produce higher-quality simplifications. Second, we show that auto-evaluation with a panel of LLM judges (LLMs-as-a-jury) often suffices to obtain consistent ratings for the evaluation of text simplification. Third, we demonstrate that existing learnable metrics for text simplification benefit from training on our LLMs-as-a-jury-rated synthetic data, closing the gap with pure LLMs-as-a-jury for evaluation. Overall, through our case study on text simplification, we show that a reliable evaluation requires higher quality test data, which could be obtained through synthetic data and LLMs-as-a-jury ratings.}
+}
+
 @article{wang2025teachingmodelsunderstandbut,
       title={Teaching Models to Understand (but not Generate) High-risk Data},
       author={Ryan Wang and Matthew Finlayson and Luca Soldaini and Swabha Swayamdipta and Robin Jia},
@@ -69,47 +94,25 @@
       abstract={Language model developers typically filter out high-risk content -- such as toxic or copyrighted text -- from their pre-training data to prevent models from generating similar outputs. However, removing such data altogether limits models' ability to recognize and appropriately respond to harmful or sensitive content. In this paper, we introduce Selective Loss to Understand but Not Generate (SLUNG), a pre-training paradigm through which models learn to understand high-risk data without learning to generate it. Instead of uniformly applying the next-token prediction loss, SLUNG selectively avoids incentivizing the generation of high-risk tokens while ensuring they remain within the model's context window. As the model learns to predict low-risk tokens that follow high-risk ones, it is forced to understand the high-risk content. Through our experiments, we show that SLUNG consistently improves models' understanding of high-risk data (e.g., ability to recognize toxic content) without increasing its generation (e.g., toxicity of model responses). Overall, our SLUNG paradigm enables models to benefit from high-risk text that would otherwise be filtered out.},
 }
 
+@article{he2025believingseeingqualityscores,
+      title={Believing without Seeing: Quality Scores for Contextualizing Vision-Language Model Explanations},
+      author={Keyu He and Tejas Srinivasan and Brihi Joshi and Xiang Ren and Jesse Thomason and Swabha Swayamdipta},
+      year={2025},
+      journal={arXiv},
+      abbr={arXiv},
+      url={https://arxiv.org/abs/2509.25844},
+      abstract={When people query Vision-Language Models (VLMs) but cannot see the accompanying visual context (e.g. for blind and low-vision users), augmenting VLM predictions with natural language explanations can signal which model predictions are reliable. However, prior work has found that explanations can easily convince users that inaccurate VLM predictions are correct. To remedy undesirable overreliance on VLM predictions, we propose evaluating two complementary qualities of VLM-generated explanations via two quality scoring functions. We propose Visual Fidelity, which captures how faithful an explanation is to the visual context, and Contrastiveness, which captures how well the explanation identifies visual details that distinguish the model's prediction from plausible alternatives. On the A-OKVQA and VizWiz tasks, these quality scoring functions are better calibrated with model correctness than existing explanation qualities. We conduct a user study in which participants have to decide whether a VLM prediction is accurate without viewing its visual context. We observe that showing our quality scores alongside VLM explanations improves participants' accuracy at predicting VLM correctness by 11.1%, including a 15.4% reduction in the rate of falsely believing incorrect predictions. These findings highlight the utility of explanation quality scores in fostering appropriate reliance on VLM predictions.},
+}
+
 @article{ghosh2025congrs,
       title={{Sample, Align, Synthesize: Graph-Based Response Synthesis with CONGRS}},
       author={Sayan Ghosh and Shahzaib Saqib Warraich and Dhruv Tarsadiya and Gregory Yauney and Swabha Swayamdipta},
       year={2025},
-      abbr={CoLM},
+      abbr={arXiv},
       journal={COLM Workshop on Test-time Scaling and Reasoning Models (ScaLR@COLM) / NeurIPS Workshop on Efficient Reasoning},
       url={https://arxiv.org/abs/2510.03527},
       code={https://github.com/dill-lab/sample-fusion-with-congrs},
       abstract={Inference-time scaling methods improve language model performance, but existing methods lack the flexibility to synthesize information across multiple long-form generation samples. We introduce Consensus Graphs (CONGRS), a flexible DAG-based data structure that represents shared content and semantic variation across a set of LM responses to the same prompt. Constructing CONGRS relies on lightweight lexical multiple sequence alignment supplemented by targeted usage of a secondary LM judge, which reduces reliance on LM judges by more than 80% compared to other methods. Our experiments show that synthesizing responses from CONGRS improves factual precision on a biography generation task by up to 32% over an average response. We apply our approach to the MATH and AIME reasoning tasks and find an improvement over self-verification and majority vote baselines by up to 6 points of accuracy. CONGRS are a promising way to efficiently use the information provided by inference-time scaling.},
-}
-
-@article{liu2025evaluationimperfectbenchmarksratings,
-      title={Evaluation Under Imperfect Benchmarks and Ratings: A Case Study in Text Simplification},
-      author={Joseph Liu and Yoonsoo Nam and Xinyue Cui and Swabha Swayamdipta},
-      year={2025},
-      journal={NeurIPS Workshop on LLM Evaluation},
-      url={https://arxiv.org/abs/2504.09394},
-      abbr={NeurIPS},
-      abstract={Despite the successes of language models, their evaluation remains a daunting challenge for new and existing tasks. We consider the task of text simplification, commonly used to improve information accessibility, where evaluation faces two major challenges. First, the data in existing benchmarks might not reflect the capabilities of current language models on the task, often containing disfluent, incoherent, or simplistic examples. Second, existing human ratings associated with the benchmarks often contain a high degree of disagreement, resulting in inconsistent ratings; nevertheless, existing metrics still have to show higher correlations with these imperfect ratings. As a result, evaluation for the task is not reliable and does not reflect expected trends (e.g., more powerful models being assigned higher scores). We address these challenges for the task of text simplification through three contributions. First, we introduce SynthSimpliEval, a synthetic benchmark for text simplification featuring simplified sentences generated by models of varying sizes. Through a pilot study, we show that human ratings on our benchmark exhibit high inter-annotator agreement and reflect the expected trend: larger models produce higher-quality simplifications. Second, we show that auto-evaluation with a panel of LLM judges (LLMs-as-a-jury) often suffices to obtain consistent ratings for the evaluation of text simplification. Third, we demonstrate that existing learnable metrics for text simplification benefit from training on our LLMs-as-a-jury-rated synthetic data, closing the gap with pure LLMs-as-a-jury for evaluation. Overall, through our case study on text simplification, we show that a reliable evaluation requires higher quality test data, which could be obtained through synthetic data and LLMs-as-a-jury ratings.}
-}
-
-@article{ranjit2025nvdrs,
-      title={Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants},
-      author={Jaspreet Ranjit and Hyundong J. Cho and Claire J. Smerdon and Yoonsoo Nam and Myles Phung and Jonathan May and John R. Blosnich and Swabha Swayamdipta},
-      year={2025},
-      journal={EAAMO / NeurIPS Workshop on GenAI for Health},
-      abbr={NeurIPS},
-      selected=true,
-      code={https://dill-lab.github.io/interventions_lm_assistants/},
-      url={https://arxiv.org/abs/2508.18541},
-      abstract={The National Violent Death Reporting System (NVDRS) documents information about suicides in the United States, including free text narratives (e.g., circumstances surrounding a suicide). In a demanding public health data pipeline, annotators manually extract structured information from death investigation records following extensive guidelines developed painstakingly by experts. In this work, we facilitate data-driven insights from the NVDRS data to support the development of novel suicide interventions by investigating the value of language models (LMs) as efficient assistants to these (a) data annotators and (b) experts. We find that LM predictions match existing data annotations about 85% of the time across 50 NVDRS variables. In the cases where the LM disagrees with existing annotations, expert review reveals that LM assistants can surface annotation discrepancies 38% of the time. Finally, we introduce a human-in-the-loop algorithm to assist experts in efficiently building and refining guidelines for annotating new variables by allowing them to focus only on providing feedback for incorrect LM predictions. We apply our algorithm to a real-world case study for a new variable that characterizes victim interactions with lawyers and demonstrate that it achieves comparable annotation quality with a laborious manual approach. Our findings provide evidence that LMs can serve as effective assistants to public health researchers who handle sensitive data in high-stakes scenarios.},
-}
-
-@article{surana2025chemref,
-      title={{ChEmREF: Evaluating Language Model Readiness for Chemical Emergency Response Assistance}},
-      author={Risha Surana and Qinyuan Ye and Swabha Swayamdipta},
-      year={2025},
-      journal={NeurIPS Workshop on LLM Evaluation},
-      abbr={NeurIPS},
-      url={https://arxiv.org/abs/2511.10027},
-      abstract={Emergency responders managing hazardous material HAZMAT incidents face critical, time-sensitive decisions, manually navigating extensive chemical guidelines. We investigate whether today's language models can assist responders by rapidly and reliably understanding critical information, identifying hazards, and providing responses. We introduce the Chemical Emergency Response Evaluation Framework (ChEmREF), a new benchmark comprising questions on 1,035 HAZMAT chemicals from the Emergency Response Guidebook and the PubChem Database. ChEmREF is organized into three tasks: (1) translation of chemical representation between structured and unstructured forms (e.g., converting C2H6O to ethanol), (2) emergency response generation (e.g., recommending appropriate evacuation distances) and (3) domain knowledge question answering from chemical safety and certification exams. Our best evaluated models received an exact match of 68.0% on unstructured HAZMAT chemical representation translation, a LLM Judge score of 52.7% on incident response recommendations, and a multiple-choice accuracy of 63.9% on HAMZAT examinations. These findings suggest that while language models show potential to assist emergency responders in various tasks, they require careful human oversight due to their current limitations.}
 }
 
 @article{kulkarni2025evaluatingevaluationmetrics,
@@ -263,14 +266,16 @@
       abstract={Despite great advances in program synthesis techniques, they remain algorithmic black boxes. Although they guarantee that when synthesis is successful, the implementation satisfies the specification, they provide no additional information regarding how the implementation works or the manner in which the specification is realized. One possibility to answer these questions is to use large language models (LLMs) to construct human-readable explanations. Unfortunately, experiments reveal that LLMs frequently produce nonsensical or misleading explanations when applied to the unidiomatic code produced by program synthesizers. In this paper, we develop an approach to reliably augment the implementation with explanatory names. We recover fine-grained input-output data from the synthesis algorithm to enhance the prompt supplied to the LLM, and use a combination of a program verifier and a second language model to validate the proposed explanations before presenting them to the user. Together, these techniques massively improve the accuracy of the proposed names, from 24% to 79% respectively. Through a pair of small user studies, we find that users significantly prefer the explanations produced by our technique (76% of responses indicating the appropriateness of the presenting names) to the baseline (with only 2% of responses approving of the suggestions), and that the proposed names measurably help users in understanding the synthesized implementation.}
 }
 
-@inproceedings{vazquez2024proceedings,
-      title={Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)},
-      author={V{\'a}zquez, Ra{\'u}l and Celikkanat, Hande and Ulmer, Dennis and Tiedemann, J{\"o}rg and Swayamdipta, Swabha and Aziz, Wilker and Plank, Barbara and Baan, Joris and de Marneffe, Marie-Catherine},
-      booktitle={Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)},
-      url={https://aclanthology.org/2024.uncertainlp-1.0/},
-      year={2024},
-      abbr={EACL},
-      abstract={Human languages are inherently ambiguous and understanding language input is subject to interpretation and complex contextual dependencies. Nevertheless, the main body of research in NLP is still based on the assumption that ambiguities and other types of underspecification can and have to be resolved. The UncertaiNLP workshop (workshop on uncertainty-aware NLP) aims to provide a platform for research that embraces variability in human language and aims to represent and evaluate the uncertainty that arises from it, and from modeling tools themselves.},
+@Comment{
+      @inproceedings{vazquez2024proceedings,
+            title={Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)},
+            author={V{\'a}zquez, Ra{\'u}l and Celikkanat, Hande and Ulmer, Dennis and Tiedemann, J{\"o}rg and Swayamdipta, Swabha and Aziz, Wilker and Plank, Barbara and Baan, Joris and de Marneffe, Marie-Catherine},
+            booktitle={Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)},
+            url={https://aclanthology.org/2024.uncertainlp-1.0/},
+            year={2024},
+            abbr={EACL},
+            abstract={Human languages are inherently ambiguous and understanding language input is subject to interpretation and complex contextual dependencies. Nevertheless, the main body of research in NLP is still based on the assumption that ambiguities and other types of underspecification can and have to be resolved. The UncertaiNLP workshop (workshop on uncertainty-aware NLP) aims to provide a platform for research that embraces variability in human language and aims to represent and evaluate the uncertainty that arises from it, and from modeling tools themselves.},
+      }
 }
 
 @inproceedings{finlayson2023closing,
@@ -386,24 +391,26 @@
     abstract={A recurring challenge of crowdsourcing NLP datasets at scale is that human writers often rely on repetitive patterns when crafting examples, leading to a lack of linguistic diversity. We introduce a novel paradigm for dataset creation based on human and machine collaboration, which brings together the generative strength of language models and the evaluative strength of humans. Starting with an existing dataset, MultiNLI, our approach uses dataset cartography to automatically identify examples that demonstrate challenging reasoning patterns, and instructs GPT-3 to compose new examples with similar patterns. Machine generated examples are then automatically filtered, and finally revised and labeled by human crowdworkers to ensure quality. The resulting dataset, WANLI, consists of 108,357 natural language inference (NLI) examples that present unique empirical strengths over existing NLI datasets. Remarkably, training a model on WANLI instead of MNLI (which is 4 times larger) improves performance on seven out-of-domain test sets we consider, including by 11% on HANS and 9% on Adversarial NLI. Moreover, combining MNLI with WANLI is more effective than combining with other augmentation sets that have been introduced. Our results demonstrate the potential of natural language generation techniques to curate NLP datasets of enhanced quality and diversity.},
 }
 
-@proceedings{deeplo-2022-deep,
-    title = "Proceedings of the Third Workshop on Deep Learning for Low-Resource Natural Language Processing",
-    author = "Cherry, Colin  and
-      Fan, Angela  and
-      Foster, George  and
-      Haffari, Gholamreza (Reza)  and
-      Khadivi, Shahram  and
-      Peng, Nanyun (Violet)  and
-      Ren, Xiang  and
-      Shareghi, Ehsan  and
-      Swayamdipta, Swabha",
-    month = jul,
-    year = "2022",
-    address = "Hybrid",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.deeplo-1.0",
-    abbr={NAACL},
-    abstract={The NAACL 2022 Workshop on Deep Learning Approaches for Low-Resource Natural Language Processing (DeepLo) takes place on Thursday, July 22, in Seattle Washington, USA, immediately after the main conference. Natural Language Processing is being revolutionized by deep learning. However, deep learning requires large amounts of annotated data, and its advantage over traditional statistical methods typically diminishes when such data is not available. Large amounts of annotated data simply do not exist for many low-resource languages. Even for high-resource languages it can be difficult to find linguistically annotated data of sufficient size and quality to allow neural methods to excel; this remains true even as few-shot learning approaches have gained popularity in recent years. This workshop aims to bring together researchers from the NLP and ML communities who work on learning with neural methods when there is not enough data for those methods to succeed out-of-the-box. Specifically, it will provide attendees with an overview of new and existing approaches from various disciplines, and enable them to distill principles that can be more generally applicable. We will also discuss the main challenges arising in this setting, and outline potential directions for future progress. Our program covers a broad spectrum of applications and techniques. It is augmented by invited talks from Yulia Tsvetkov, Sebastian Ruder, Graham Neubig, and David Ifeoluwa Adelani. We would like to thank the members of our Program Committee for their timely and thoughtful reviews.}
+@Comment{
+      @proceedings{deeplo-2022-deep,
+      title = "Proceedings of the Third Workshop on Deep Learning for Low-Resource Natural Language Processing",
+      author = "Cherry, Colin  and
+            Fan, Angela  and
+            Foster, George  and
+            Haffari, Gholamreza (Reza)  and
+            Khadivi, Shahram  and
+            Peng, Nanyun (Violet)  and
+            Ren, Xiang  and
+            Shareghi, Ehsan  and
+            Swayamdipta, Swabha",
+      month = jul,
+      year = "2022",
+      address = "Hybrid",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2022.deeplo-1.0",
+      abbr={NAACL},
+      abstract={The NAACL 2022 Workshop on Deep Learning Approaches for Low-Resource Natural Language Processing (DeepLo) takes place on Thursday, July 22, in Seattle Washington, USA, immediately after the main conference. Natural Language Processing is being revolutionized by deep learning. However, deep learning requires large amounts of annotated data, and its advantage over traditional statistical methods typically diminishes when such data is not available. Large amounts of annotated data simply do not exist for many low-resource languages. Even for high-resource languages it can be difficult to find linguistically annotated data of sufficient size and quality to allow neural methods to excel; this remains true even as few-shot learning approaches have gained popularity in recent years. This workshop aims to bring together researchers from the NLP and ML communities who work on learning with neural methods when there is not enough data for those methods to succeed out-of-the-box. Specifically, it will provide attendees with an overview of new and existing approaches from various disciplines, and enable them to distill principles that can be more generally applicable. We will also discuss the main challenges arising in this setting, and outline potential directions for future progress. Our program covers a broad spectrum of applications and techniques. It is augmented by invited talks from Yulia Tsvetkov, Sebastian Ruder, Graham Neubig, and David Ifeoluwa Adelani. We would like to thank the members of our Program Committee for their timely and thoughtful reviews.}
+      }
 }
 
 @inproceedings{wiegreffe2021reframing,
