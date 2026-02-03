@@ -14,10 +14,13 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
-- (Upcoming) [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
-    * Jan 30, 2025
+- (Upcoming) [The Webb Schools](https://www.webb.org/) Tech and Innovation Seminar
+    * [Building Language Model Assistants for Social Good]()
+    * Feb 06, 2026
+- [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
     * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
-- Stanford NLP Seminar
+    * Jan 30, 2025
+- [Stanford NLP Seminar](https://nlp.stanford.edu/seminar/)
     * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
     * Jan 22, 2026
 - [Cornell Tech Learning Machine Seminar Series (LMSS)](https://lmss.tech.cornell.edu/)
