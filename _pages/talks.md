@@ -14,8 +14,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
-- (Upcoming) [The Webb Schools](https://www.webb.org/) Tech and Innovation Seminar
-    * [Building Language Model Assistants for Social Good]()
+- [The Webb Schools](https://www.webb.org/) Tech and Innovation Seminar
+    * [Building Language Model Assistants for Social Good](../assets/pdf/talks/2026-02-06-webb-schools-building-llm-assistants-for-social-good.pdf)
     * Feb 06, 2026
 - [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
     * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
