@@ -5,8 +5,10 @@
       title={Disentangling Geometry, Performance, and Training in Language Models},
       author={Atharva Kulkarni and Jacob Mitchell Springer and Arjun Subramonian and Swabha Swayamdipta},
       year={2026},
-      journal={Preprint},
+      journal={Under Review},
+      abbr={Preprint},
       url={https://arxiv.org/abs/2602.20433},
+      abstract={Geometric properties of Transformer weights, particularly the unembedding matrix, have been widely useful in language model interpretability research. Yet, their utility for estimating downstream performance remains unclear. In this work, we systematically investigate the relationship between model performance and the unembedding matrix geometry, particularly its effective rank. Our experiments, involving a suite of 108 OLMo-style language models trained under controlled variation, reveal several key findings. While the best-performing models often exhibit a high effective rank, this trend is not universal across tasks and training setups. Contrary to prior work, we find that low effective rank does not cause late-stage performance degradation in small models, but instead co-occurs with it; we find adversarial cases where low-rank models do not exhibit saturation. Moreover, we show that effective rank is strongly influenced by pre-training hyperparameters, such as batch size and weight decay, which in-turn affect the model's performance. Lastly, extending our analysis to other geometric metrics and final-layer representation, we find that these metrics are largely aligned, but none can reliably predict downstream performance. Overall, our findings suggest that the model's geometry, as captured by existing metrics, primarily reflects training choices rather than performance.},
 }
 
 @article{finlayson2025languagemodelforgeryresistantsignature,
