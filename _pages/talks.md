@@ -14,6 +14,9 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
+- [Sardine-ELLIS Seminar](https://sardine-lab.github.io/ellis-sardine-seminars/)
+    * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
+    * Mar 30, 2025
 - [The Webb Schools](https://www.webb.org/) Tech and Innovation Seminar
     * [Building Language Model Assistants for Social Good](../assets/pdf/talks/2026-02-06-webb-schools-building-llm-assistants-for-social-good.pdf)
     * Feb 06, 2026
@@ -153,6 +156,8 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### panels
 
+- [Let's Talk Tech: A Multidisciplinary Approach for the Digital Age](https://dworakpeck.usc.edu/sites/default/files/2026-03/Let%27s%20Talk%20Tech%20-%203-26-2026.pdf?j=1260559&sfmc_sub=81060978&l=12607_HTML&u=58615444&mid=100015999&jb=3002) @ USC Suzanne Dworak-Peck School of Social Work
+    * Mar 26, 2026
 - Technology Panel on AI @ [AI IMPACT Pre-Summit Event IIT Alumni Socal](https://www.iit-socal.org/ai-impact-pre-summit-event)
     * Jan 15, 2026
 - Advancing research, practice, and policy @ [USC HPRI](https://hpri.usc.edu/) Flourishing and Empowerment Summit

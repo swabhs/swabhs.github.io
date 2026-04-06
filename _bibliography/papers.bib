@@ -1,24 +1,51 @@
 ---
 ---
 
-%%%%%%%%%%%%% harshita?
 %%%%%%%%%%%%% kritee?
 %%%%%%%%%%%%% yao ma?
-%%%%%%%%%%%%% colm - harsh?
-%%%%%%%%%%%%% colm - matt?
-%%%%%%%%%%%%% neurips - xinyue?
-%%%%%%%%%%%%% neurips - brihi?
-%%%%%%%%%%%%% neurips - matt?
-%%%%%%%%%%%%% neurips - dhruv?
+
+@article{ranjit2025nvdrs,
+      title={Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants},
+      author={Jaspreet Ranjit and Hyundong J. Cho and Claire J. Smerdon and Yoonsoo Nam and Myles Phung and Jonathan May and John R. Blosnich and Swabha Swayamdipta},
+      year={2026},
+      journal={Proc. of ACL / NeurIPS Workshop on GenAI for Health / EAAMO},
+      abbr={ACL},
+      selected=true,
+      preview={nvdrs.jpg},
+      code={https://dill-lab.github.io/interventions_lm_assistants/},
+      url={https://arxiv.org/abs/2508.18541},
+      abstract={The National Violent Death Reporting System (NVDRS) documents information about suicides in the United States, including free text narratives (e.g., circumstances surrounding a suicide). In a demanding public health data pipeline, annotators manually extract structured information from death investigation records following extensive guidelines developed painstakingly by experts. In this work, we facilitate data-driven insights from the NVDRS data to support the development of novel suicide interventions by investigating the value of language models (LMs) as efficient assistants to these (a) data annotators and (b) experts. We find that LM predictions match existing data annotations about 85% of the time across 50 NVDRS variables. In the cases where the LM disagrees with existing annotations, expert review reveals that LM assistants can surface annotation discrepancies 38% of the time. Finally, we introduce a human-in-the-loop algorithm to assist experts in efficiently building and refining guidelines for annotating new variables by allowing them to focus only on providing feedback for incorrect LM predictions. We apply our algorithm to a real-world case study for a new variable that characterizes victim interactions with lawyers and demonstrate that it achieves comparable annotation quality with a laborious manual approach. Our findings provide evidence that LMs can serve as effective assistants to public health researchers who handle sensitive data in high-stakes scenarios.},
+}
+
+@article{he2025believingseeingqualityscores,
+      title={Believing without Seeing: Quality Scores for Contextualizing Vision-Language Model Explanations},
+      author={Keyu He and Tejas Srinivasan and Brihi Joshi and Xiang Ren and Jesse Thomason and Swabha Swayamdipta},
+      year={2026},
+      journal={Proc. of ACL},
+      abbr={ACL},
+      url={https://arxiv.org/abs/2509.25844},
+      abstract={When people query Vision-Language Models (VLMs) but cannot see the accompanying visual context (e.g. for blind and low-vision users), augmenting VLM predictions with natural language explanations can signal which model predictions are reliable. However, prior work has found that explanations can easily convince users that inaccurate VLM predictions are correct. To remedy undesirable overreliance on VLM predictions, we propose evaluating two complementary qualities of VLM-generated explanations via two quality scoring functions. We propose Visual Fidelity, which captures how faithful an explanation is to the visual context, and Contrastiveness, which captures how well the explanation identifies visual details that distinguish the model's prediction from plausible alternatives. On the A-OKVQA and VizWiz tasks, these quality scoring functions are better calibrated with model correctness than existing explanation qualities. We conduct a user study in which participants have to decide whether a VLM prediction is accurate without viewing its visual context. We observe that showing our quality scores alongside VLM explanations improves participants' accuracy at predicting VLM correctness by 11.1%, including a 15.4% reduction in the rate of falsely believing incorrect predictions. These findings highlight the utility of explanation quality scores in fostering appropriate reliance on VLM predictions.},
+}
 
 @article{kulkarni2026disentanglinggeometryperformancetraining,
       title={Disentangling Geometry, Performance, and Training in Language Models},
       author={Atharva Kulkarni and Jacob Mitchell Springer and Arjun Subramonian and Swabha Swayamdipta},
       year={2026},
       journal={Under Review},
+      selected=true,
       abbr={Preprint},
       url={https://arxiv.org/abs/2602.20433},
       abstract={Geometric properties of Transformer weights, particularly the unembedding matrix, have been widely useful in language model interpretability research. Yet, their utility for estimating downstream performance remains unclear. In this work, we systematically investigate the relationship between model performance and the unembedding matrix geometry, particularly its effective rank. Our experiments, involving a suite of 108 OLMo-style language models trained under controlled variation, reveal several key findings. While the best-performing models often exhibit a high effective rank, this trend is not universal across tasks and training setups. Contrary to prior work, we find that low effective rank does not cause late-stage performance degradation in small models, but instead co-occurs with it; we find adversarial cases where low-rank models do not exhibit saturation. Moreover, we show that effective rank is strongly influenced by pre-training hyperparameters, such as batch size and weight decay, which in-turn affect the model's performance. Lastly, extending our analysis to other geometric metrics and final-layer representation, we find that these metrics are largely aligned, but none can reliably predict downstream performance. Overall, our findings suggest that the model's geometry, as captured by existing metrics, primarily reflects training choices rather than performance.},
+}
+
+@article{diddee2026benchbrowsercollectingevidence,
+      title={BenchBrowser -- Collecting Evidence for Evaluating Benchmark Validity},
+      author={Harshita Diddee and Gregory Yauney and Swabha Swayamdipta and Daphne Ippolito},
+      year={2026},
+      journal={Under Submission},
+      abbr={Preprint},
+      url={https://arxiv.org/abs/2603.18019},
+      abstract={Do language model benchmarks actually measure what practitioners intend them to? High-level metadata is too coarse to convey the granular reality of benchmarks: a "poetry" benchmark may never test for haikus, while "instruction-following" benchmarks will often test for an arbitrary mix of skills. This opacity makes verifying alignment with practitioner goals a laborious process, risking an illusion of competence even when models fail on untested facets of user interests. We introduce BenchBrowser, a retriever that surfaces evaluation items relevant to natural language use cases over 20 benchmark suites. Validated by a human study confirming high retrieval precision, BenchBrowser generates evidence to help practitioners diagnose low content validity (narrow coverage of a capability's facets) and low convergent validity (lack of stable rankings when measuring the same capability). BenchBrowser, thus, helps quantify a critical gap between practitioner intent and what benchmarks actually test.},
 }
 
 @article{finlayson2025languagemodelforgeryresistantsignature,
@@ -51,7 +78,7 @@
 @article{ranjit2025automating,
       title={Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning},
       author={Ranjit, Jaspreet and Zhou, Ke and Swayamdipta, Swabha and Daniele, Quercia},
-      url={https://jr4fs.github.io/assets/2025_AIJobs_Jaspreet-B015Xw8s.pdf},
+      url={https://arxiv.org/abs/2603.14963},
       year={2026},
       journal={Proc. of CHI},
       abbr={CHI},
@@ -85,19 +112,6 @@
       abstract={{Language model inversion seeks to recover hidden prompts using only language model outputs. This capability has implications for security and accountability in language model deployments, such as leaking private information from an API-protected language model's system message. We propose a new method -- prompt inversion from logprob sequences (PILS) -- that recovers hidden prompts by gleaning clues from the model's next-token probabilities over the course of multiple generation steps. Our method is enabled by a key insight: The vector-valued outputs of a language model occupy a low-dimensional subspace. This enables us to losslessly compress the full next-token probability distribution over multiple generation steps using a linear map, allowing more output information to be used for inversion. Our approach yields massive gains over previous state-of-the-art methods for recovering hidden prompts, achieving 2--3.5 times higher exact recovery rates across test sets, in one case increasing the recovery rate from 17% to 60%. Our method also exhibits surprisingly good generalization behavior; for instance, an inverter trained on 16 generations steps gets 5--27 points higher prompt recovery when we increase the number of steps to 32 at test time. Furthermore, we demonstrate strong performance of our method on the more challenging task of recovering hidden system messages. We also analyze the role of verbatim repetition in prompt recovery and propose a new method for cross-family model transfer for logit-based inverters. Our findings show that next-token probabilities are a considerably more vulnerable attack surface for inversion attacks than previously known.}}
 }
 
-@article{ranjit2025nvdrs,
-      title={Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants},
-      author={Jaspreet Ranjit and Hyundong J. Cho and Claire J. Smerdon and Yoonsoo Nam and Myles Phung and Jonathan May and John R. Blosnich and Swabha Swayamdipta},
-      year={2025},
-      journal={NeurIPS Workshop on GenAI for Health / EAAMO},
-      abbr={NeurIPS W.},
-      selected=true,
-      preview={nvdrs.jpg},
-      code={https://dill-lab.github.io/interventions_lm_assistants/},
-      url={https://arxiv.org/abs/2508.18541},
-      abstract={The National Violent Death Reporting System (NVDRS) documents information about suicides in the United States, including free text narratives (e.g., circumstances surrounding a suicide). In a demanding public health data pipeline, annotators manually extract structured information from death investigation records following extensive guidelines developed painstakingly by experts. In this work, we facilitate data-driven insights from the NVDRS data to support the development of novel suicide interventions by investigating the value of language models (LMs) as efficient assistants to these (a) data annotators and (b) experts. We find that LM predictions match existing data annotations about 85% of the time across 50 NVDRS variables. In the cases where the LM disagrees with existing annotations, expert review reveals that LM assistants can surface annotation discrepancies 38% of the time. Finally, we introduce a human-in-the-loop algorithm to assist experts in efficiently building and refining guidelines for annotating new variables by allowing them to focus only on providing feedback for incorrect LM predictions. We apply our algorithm to a real-world case study for a new variable that characterizes victim interactions with lawyers and demonstrate that it achieves comparable annotation quality with a laborious manual approach. Our findings provide evidence that LMs can serve as effective assistants to public health researchers who handle sensitive data in high-stakes scenarios.},
-}
-
 @article{surana2025chemref,
       title={{ChEmREF: Evaluating Language Model Readiness for Chemical Emergency Response Assistance}},
       author={Risha Surana and Qinyuan Ye and Swabha Swayamdipta},
@@ -129,16 +143,6 @@
       url={https://arxiv.org/abs/2505.03052},
       code={https://github.com/ryanyxw/llm-decouple},
       abstract={Language model developers typically filter out high-risk content -- such as toxic or copyrighted text -- from their pre-training data to prevent models from generating similar outputs. However, removing such data altogether limits models' ability to recognize and appropriately respond to harmful or sensitive content. In this paper, we introduce Selective Loss to Understand but Not Generate (SLUNG), a pre-training paradigm through which models learn to understand high-risk data without learning to generate it. Instead of uniformly applying the next-token prediction loss, SLUNG selectively avoids incentivizing the generation of high-risk tokens while ensuring they remain within the model's context window. As the model learns to predict low-risk tokens that follow high-risk ones, it is forced to understand the high-risk content. Through our experiments, we show that SLUNG consistently improves models' understanding of high-risk data (e.g., ability to recognize toxic content) without increasing its generation (e.g., toxicity of model responses). Overall, our SLUNG paradigm enables models to benefit from high-risk text that would otherwise be filtered out.},
-}
-
-@article{he2025believingseeingqualityscores,
-      title={Believing without Seeing: Quality Scores for Contextualizing Vision-Language Model Explanations},
-      author={Keyu He and Tejas Srinivasan and Brihi Joshi and Xiang Ren and Jesse Thomason and Swabha Swayamdipta},
-      year={2025},
-      journal={arXiv},
-      abbr={Preprint},
-      url={https://arxiv.org/abs/2509.25844},
-      abstract={When people query Vision-Language Models (VLMs) but cannot see the accompanying visual context (e.g. for blind and low-vision users), augmenting VLM predictions with natural language explanations can signal which model predictions are reliable. However, prior work has found that explanations can easily convince users that inaccurate VLM predictions are correct. To remedy undesirable overreliance on VLM predictions, we propose evaluating two complementary qualities of VLM-generated explanations via two quality scoring functions. We propose Visual Fidelity, which captures how faithful an explanation is to the visual context, and Contrastiveness, which captures how well the explanation identifies visual details that distinguish the model's prediction from plausible alternatives. On the A-OKVQA and VizWiz tasks, these quality scoring functions are better calibrated with model correctness than existing explanation qualities. We conduct a user study in which participants have to decide whether a VLM prediction is accurate without viewing its visual context. We observe that showing our quality scores alongside VLM explanations improves participants' accuracy at predicting VLM correctness by 11.1%, including a 15.4% reduction in the rate of falsely believing incorrect predictions. These findings highlight the utility of explanation quality scores in fostering appropriate reliance on VLM predictions.},
 }
 
 @article{ghosh2025congrs,
