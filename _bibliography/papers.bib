@@ -4,6 +4,19 @@
 %%%%%%%%%%%%% kritee?
 %%%%%%%%%%%%% yao ma?
 
+
+@article{kulkarni2026disentanglinggeometryperformancetraining,
+      title={Disentangling Geometry, Performance, and Training in Language Models},
+      author={Atharva Kulkarni and Jacob Mitchell Springer and Arjun Subramonian and Swabha Swayamdipta},
+      year={2026},
+      journal={Proc. of ICML},
+      prize={Oral},
+      selected=true,
+      abbr={ICML},
+      url={https://arxiv.org/abs/2602.20433},
+      abstract={Geometric properties of Transformer weights, particularly the unembedding matrix, have been widely useful in language model interpretability research. Yet, their utility for estimating downstream performance remains unclear. In this work, we systematically investigate the relationship between model performance and the unembedding matrix geometry, particularly its effective rank. Our experiments, involving a suite of 108 OLMo-style language models trained under controlled variation, reveal several key findings. While the best-performing models often exhibit a high effective rank, this trend is not universal across tasks and training setups. Contrary to prior work, we find that low effective rank does not cause late-stage performance degradation in small models, but instead co-occurs with it; we find adversarial cases where low-rank models do not exhibit saturation. Moreover, we show that effective rank is strongly influenced by pre-training hyperparameters, such as batch size and weight decay, which in-turn affect the model's performance. Lastly, extending our analysis to other geometric metrics and final-layer representation, we find that these metrics are largely aligned, but none can reliably predict downstream performance. Overall, our findings suggest that the model's geometry, as captured by existing metrics, primarily reflects training choices rather than performance.},
+}
+
 @article{ranjit2025nvdrs,
       title={Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants},
       author={Jaspreet Ranjit and Hyundong J. Cho and Claire J. Smerdon and Yoonsoo Nam and Myles Phung and Jonathan May and John R. Blosnich and Swabha Swayamdipta},
@@ -27,15 +40,24 @@
       abstract={When people query Vision-Language Models (VLMs) but cannot see the accompanying visual context (e.g. for blind and low-vision users), augmenting VLM predictions with natural language explanations can signal which model predictions are reliable. However, prior work has found that explanations can easily convince users that inaccurate VLM predictions are correct. To remedy undesirable overreliance on VLM predictions, we propose evaluating two complementary qualities of VLM-generated explanations via two quality scoring functions. We propose Visual Fidelity, which captures how faithful an explanation is to the visual context, and Contrastiveness, which captures how well the explanation identifies visual details that distinguish the model's prediction from plausible alternatives. On the A-OKVQA and VizWiz tasks, these quality scoring functions are better calibrated with model correctness than existing explanation qualities. We conduct a user study in which participants have to decide whether a VLM prediction is accurate without viewing its visual context. We observe that showing our quality scores alongside VLM explanations improves participants' accuracy at predicting VLM correctness by 11.1%, including a 15.4% reduction in the rate of falsely believing incorrect predictions. These findings highlight the utility of explanation quality scores in fostering appropriate reliance on VLM predictions.},
 }
 
-@article{kulkarni2026disentanglinggeometryperformancetraining,
-      title={Disentangling Geometry, Performance, and Training in Language Models},
-      author={Atharva Kulkarni and Jacob Mitchell Springer and Arjun Subramonian and Swabha Swayamdipta},
+@article{kaplan2026finetuningencourageshallucinationsfix,
+      title={Why Fine-Tuning Encourages Hallucinations and How to Fix It},
+      author={Guy Kaplan and Zorik Gekhman and Zhen Zhu and Lotem Rozner and Yuval Reif and Swabha Swayamdipta and Derek Hoiem and Roy Schwartz},
       year={2026},
-      journal={Under Review},
-      selected=true,
+      journal={Under Submission},
       abbr={Preprint},
-      url={https://arxiv.org/abs/2602.20433},
-      abstract={Geometric properties of Transformer weights, particularly the unembedding matrix, have been widely useful in language model interpretability research. Yet, their utility for estimating downstream performance remains unclear. In this work, we systematically investigate the relationship between model performance and the unembedding matrix geometry, particularly its effective rank. Our experiments, involving a suite of 108 OLMo-style language models trained under controlled variation, reveal several key findings. While the best-performing models often exhibit a high effective rank, this trend is not universal across tasks and training setups. Contrary to prior work, we find that low effective rank does not cause late-stage performance degradation in small models, but instead co-occurs with it; we find adversarial cases where low-rank models do not exhibit saturation. Moreover, we show that effective rank is strongly influenced by pre-training hyperparameters, such as batch size and weight decay, which in-turn affect the model's performance. Lastly, extending our analysis to other geometric metrics and final-layer representation, we find that these metrics are largely aligned, but none can reliably predict downstream performance. Overall, our findings suggest that the model's geometry, as captured by existing metrics, primarily reflects training choices rather than performance.},
+      url={https://arxiv.org/abs/2604.15574},
+      abstract={Large language models are prone to hallucinating factually incorrect statements. A key source of these errors is exposure to new factual information through supervised fine-tuning (SFT), which can increase hallucinations w.r.t. knowledge acquired during pre-training. In this work, we explore whether SFT-induced hallucinations can be mitigated using established tools from the continual learning literature, since they arise as a by-product of knowledge degradation during training. We propose a self-distillation-based SFT method that facilitates effective factual learning while minimizing hallucinations w.r.t. pre-existing knowledge by regularizing output-distribution drift. We also show that, in settings where new knowledge acquisition is unnecessary, suppressing factual plasticity by freezing parameter groups, can preserve task performance while reducing hallucinations. Lastly, we investigate the mechanism behind SFT-induced hallucinations through three hypotheses: capacity limitations, behavior cloning, and localized interference. Our experiments show that a main driver is interference among overlapping semantic representations, and that self-distillation succeeds by mitigating this interference.},
+}
+
+@article{kondapally2026sidebyside,
+      title={Side-by-side Comparison Amplifies Dialect Bias in Language Models},
+      author={Kritee Kondapally, Claire J. Smerdon, Pooja Chetan Patel, Ogheneyoma Akoni, Jevon Torres, Jaspreet Ranjit, Matthew Finlayson, Swabha Swayamdipta},
+      journal={The Ninth Annual ACM Conference on Fairness, Accountability, and Transparency},
+      year={2026},
+      url={https://openreview.net/forum?id=GsHSBCzsEJ},
+      abbr={Proc. of FAccT},
+      abstract={Language models (LMs) can exhibit systematic biases against speakers based on variations in their dialects, even in the absence of a dialect label, a behavior known as covert dialect bias. In this work, we quantify covert dialect bias in online discourse by evaluating how LMs associate stereotypical traits (derived from social psychology research on racial bias) with intent-equivalent tweets in Standard American English (SAE) and African-American Vernacular English (AAVE). While prior work shows that LMs associate more negative stereotypes with AAVE when evaluating tweets in isolation, we are surprised to find that this bias is significantly exacerbated when SAE / AAVE tweet pairs are compared side by side, a setting that more closely reflects high-impact decision making contexts in which models are used to rank candidates. The bias only worsens when dialect labels are explicitly specified. This is striking, given the extensive efforts from commercial developers to mitigate bias in their LMs. Encouragingly, we show that counterfactual fairness finetuning can mitigate covert dialect bias for some stereotypical traits, reducing average disparities when evaluating tweets in isolation, however, these improvements do not consistently hold across traits when evaluating SAE / AAVE tweets side by side. Our findings show that existing evaluation settings for covert dialect bias may underestimate its severity, specifically in contrastive settings. Additionally, overt dialect bias remains pronounced even after safety aligned finetuning, indicating that it remains an unresolved problem, and motivates the need for more robust evaluation and mitigation frameworks.},
 }
 
 @article{diddee2026benchbrowsercollectingevidence,
