@@ -1,9 +1,7 @@
 ---
 ---
 
-%%%%%%%%%%%%% kritee?
 %%%%%%%%%%%%% yao ma?
-
 
 @article{kulkarni2026disentanglinggeometryperformancetraining,
       title={Disentangling Geometry, Performance, and Training in Language Models},
@@ -56,7 +54,7 @@
       journal={The Ninth Annual ACM Conference on Fairness, Accountability, and Transparency},
       year={2026},
       url={https://openreview.net/forum?id=GsHSBCzsEJ},
-      abbr={Proc. of FAccT},
+      abbr={FAccT},
       abstract={Language models (LMs) can exhibit systematic biases against speakers based on variations in their dialects, even in the absence of a dialect label, a behavior known as covert dialect bias. In this work, we quantify covert dialect bias in online discourse by evaluating how LMs associate stereotypical traits (derived from social psychology research on racial bias) with intent-equivalent tweets in Standard American English (SAE) and African-American Vernacular English (AAVE). While prior work shows that LMs associate more negative stereotypes with AAVE when evaluating tweets in isolation, we are surprised to find that this bias is significantly exacerbated when SAE / AAVE tweet pairs are compared side by side, a setting that more closely reflects high-impact decision making contexts in which models are used to rank candidates. The bias only worsens when dialect labels are explicitly specified. This is striking, given the extensive efforts from commercial developers to mitigate bias in their LMs. Encouragingly, we show that counterfactual fairness finetuning can mitigate covert dialect bias for some stereotypical traits, reducing average disparities when evaluating tweets in isolation, however, these improvements do not consistently hold across traits when evaluating SAE / AAVE tweets side by side. Our findings show that existing evaluation settings for covert dialect bias may underestimate its severity, specifically in contrastive settings. Additionally, overt dialect bias remains pronounced even after safety aligned finetuning, indicating that it remains an unresolved problem, and motivates the need for more robust evaluation and mitigation frameworks.},
 }
 
@@ -68,6 +66,15 @@
       abbr={Preprint},
       url={https://arxiv.org/abs/2603.18019},
       abstract={Do language model benchmarks actually measure what practitioners intend them to? High-level metadata is too coarse to convey the granular reality of benchmarks: a "poetry" benchmark may never test for haikus, while "instruction-following" benchmarks will often test for an arbitrary mix of skills. This opacity makes verifying alignment with practitioner goals a laborious process, risking an illusion of competence even when models fail on untested facets of user interests. We introduce BenchBrowser, a retriever that surfaces evaluation items relevant to natural language use cases over 20 benchmark suites. Validated by a human study confirming high retrieval precision, BenchBrowser generates evidence to help practitioners diagnose low content validity (narrow coverage of a capability's facets) and low convergent validity (lack of stable rankings when measuring the same capability). BenchBrowser, thus, helps quantify a critical gap between practitioner intent and what benchmarks actually test.},
+}
+
+@article{finlayson2026tokenrankingsunforgeablelanguage,
+      title={Token Rankings are Unforgeable Language Model Signatures},
+      author={Matthew Finlayson and Andreas Grivas and Xiang Ren and Swabha Swayamdipta},
+      year={2026},
+      abbr={Preprint},
+      url={https://arxiv.org/abs/2606.04459},
+      abstract={Language model parameters are known to impose unique (to each model) geometric constraints on their logit outputs, which serves as a signature that identifies the model, but also leaks the model's final layer parameters when an API distributes logits. We investigate more restrictive APIs that expose token rankings (i.e., their ordering by probability, but not the probability values) and find that rankings also constitute a signature: every model has a unique set of feasible top-k rankings for sufficiently large k. Furthermore, the ranking signature is the first known (polynomially) unforgeable signature, since finding a model with the same set of feasible rankings is NP-hard. On the security front, we find that token rankings are already sufficient to approximately steal the final layer of the model, similar to logits, though the approximation is too coarse to forge the signature, and can be effectively countered by restricting the API to top-k tokens with sufficiently small k. Since the top-k required to present the model signature is generally smaller than the k required to prevent stealing, it is possible for an API to present an unforgeable signature without leaking model parameters.},
 }
 
 @article{finlayson2025languagemodelforgeryresistantsignature,

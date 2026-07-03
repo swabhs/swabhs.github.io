@@ -14,15 +14,18 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
+- (Upcoming) [GEM Workshop at ACL 2026](https://gem-workshop.com/)
+    * Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?
+    * Jul 04, 2026
 - [Sardine-ELLIS Seminar](https://sardine-lab.github.io/ellis-sardine-seminars/)
-    * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
-    * Mar 30, 2025
+    * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?](https://drive.google.com/file/d/1woblxjwuHIulIWdfyhWHikQYKPqJhUJy/view)
+    * Mar 30, 2026
 - [The Webb Schools](https://www.webb.org/) Tech and Innovation Seminar
     * [Building Language Model Assistants for Social Good](../assets/pdf/talks/2026-02-06-webb-schools-building-llm-assistants-for-social-good.pdf)
     * Feb 06, 2026
 - [UCLA-NLP Seminar Series](https://uclanlp.github.io/nlp-seminar/)
     * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
-    * Jan 30, 2025
+    * Jan 30, 2026
 - [Stanford NLP Seminar](https://nlp.stanford.edu/seminar/)
     * [Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?]()
     * Jan 22, 2026
