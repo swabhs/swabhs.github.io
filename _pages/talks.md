@@ -14,7 +14,7 @@ A brief <a href="/bio/">biosketch</a> for invited talks.
 
 ### invited talks
 
-- (Upcoming) [GEM Workshop at ACL 2026](https://gem-workshop.com/)
+- [GEM Workshop at ACL 2026](https://gem-workshop.com/)
     * Small Samples, Big Reveal: What can we learn from limited observations of language model behavior?
     * Jul 04, 2026
 - [Sardine-ELLIS Seminar](https://sardine-lab.github.io/ellis-sardine-seminars/)
