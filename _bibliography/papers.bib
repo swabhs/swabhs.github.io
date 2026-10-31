@@ -1,7 +1,6 @@
 ---
 ---
 
-%%%%%%%%%%%%% yao ma?
 
 @article{ranjit2026codahumanlmcollaborativecodebook,
       title={CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation}, 
@@ -20,12 +19,12 @@
 	journal = {American Journal of Public Health},
 	volume = {116},
 	number = {10},
+    abbr = {AJPH},
 	pages = {1550-1556},
 	year = {2026},
 	doi = {10.2105/AJPH.2026.308618},
-	note ={PMID: 42561172},
 	URL = {https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.2026.308618},
-	eprint = {https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2026.308618},
+	abstract={Suicide deaths in the United States have increased for a generation with no current evidence of meaningful decline. With advances in data collection and accumulation, suicide prevention research has started utilizing artificial intelligence (AI) tools, predominantly machine learning, predictive analytics, and language models, to help mainly in prediction of suicide by utilizing large electronic health record data sets. The National Violent Death Reporting System (NVDRS) compiles significant amounts of structured and unstructured data about suicide decedents, including narrative information about the death (i.e., death narrative) that summarizes details such as the scene, decedent characteristics, and witness and next-of-kin details from interviews. Over the last 20 years, the NVDRS has accumulated hundreds of thousands of suicide death narratives—more than any human can (or would care to) read because of their grim, and sometimes graphic, nature. This analytic essay briefly reviews how AI tools have been applied to suicide prevention research. It also summarizes an example of how AI tools (e.g., language models) can expedite analysis using 756 645 narratives from 483 303 suicide deaths contained in the 2003–2023 NVDRS. },
 }
 
 @article{kulkarni2026disentanglinggeometryperformancetraining,
@@ -170,7 +169,6 @@
       eprint={2506.17090},
       abbr={NeurIPS},
       journal={Proc. of NeurIPS},
-      selected=true,
       preview={pils.png},
       url={https://arxiv.org/abs/2506.17090},
       code={},
@@ -262,7 +260,6 @@
       abbr={ACL},
       code={https://github.com/INK-USC/ELI-Why},
       url={https://arxiv.org/abs/2506.14200},
-      selected=true,
       preview={eliwhy.png},
       abstract={Language models today are widely used in education, yet their ability to tailor responses for learners with varied informational needs and knowledge backgrounds remains under-explored. To this end, we introduce ELI-Why, a benchmark of 13.4K "Why" questions to evaluate the pedagogical capabilities of language models. We then conduct two extensive human studies to assess the utility of language model-generated explanatory answers (explanations) on our benchmark, tailored to three distinct educational grades: elementary, high-school and graduate school. In our first study, human raters assume the role of an "educator" to assess model explanations' fit to different educational grades. We find that GPT-4-generated explanations match their intended educational background only 50% of the time, compared to 79% for lay human-curated explanations. In our second study, human raters assume the role of a learner to assess if an explanation fits their own informational needs. Across all educational backgrounds, users deemed GPT-4-generated explanations 20% less suited on average to their informational needs, when compared to explanations curated by lay people. Additionally, automated evaluation metrics reveal that explanations generated across different language model families for different informational needs remain indistinguishable in their grade-level, limiting their pedagogical effectiveness.}
 }
@@ -314,7 +311,6 @@
       blog={https://dill-lab.github.io/oath-frames/},
       selected=true,
       preview={oath_frames.jpg},
-      selected=true,
       abstract={Homelessness in the U.S. is widespread; individual beliefs and attitudes towards homelessness—often expressed on social media are complex and nuanced (e.g. critical as well as sympathetic). Such attitudes can be challenging to summarize at scale, obfuscating the broader public opinion which advocacy organizations use to guide public policy and reform efforts. Our work proposes an approach to enable a large-scale study on homelessness via two major contributions. First, with the help of domain experts in social work and their trainees, we characterize Online Attitudes towards Homelessness in nine hierarchical frames (OATH-Frames) on a collection of 4K social media posts. Further, in an effort to ease the annotation of these frames, we employ GPT-4 as an LLM assistant to the experts; GPT-4 + Expert annotation presents an attractive trade off owing to a 6.5× speedup in annotation time despite only incurring a 2 point F1 difference in annotation performance. Our effort results in a collection of 8K social media posts labeled by domain and trained experts (with and without GPT-4 assistance). Second, using predicted OATH-Frames on a Flan-T5-Large model trained on our data, we perform a large-scale analysis on 2.4M posts on homelessness. We find that posts that contain mentions of west coast states express more harmful generalizations of people experiencing homelessness (PEH) compared to posts about east coast states. We also find marked differences in attitudes across vulnerable populations as they are compared to PEH as being either more or less deserving of aid.},
 }
 
@@ -558,7 +554,6 @@
     code={https://github.com/kawine/dataset_difficulty},
     url={https://arxiv.org/abs/2110.08420},
     prize={Outstanding Paper Award},
-    selected=true,
     preview={vinfo.png},
     abstract={Estimating the difficulty of a dataset typically involves comparing state-of-the-art models to humans; the bigger the performance gap, the harder the dataset is said to be. However, this comparison provides little understanding of how difficult each instance in a given distribution is, or what attributes make the dataset difficult for a given model. To address these questions, we frame dataset difficulty -- w.r.t. a model 𝒱 -- as the lack of 𝒱-usable information (Xu et al., 2019), where a lower value indicates a more difficult dataset for 𝒱. We further introduce pointwise -information (PVI) for measuring the difficulty of individual instances w.r.t. a given distribution. While standard evaluation metrics typically only compare different models for the same dataset, 𝒱-usable information and PVI also permit the converse: for a given model 𝒱, we can compare different datasets, as well as different instances/slices of the same dataset. Furthermore, our framework allows for the interpretability of different input attributes via transformations of the input, which we use to discover annotation artefacts in widely-used NLP benchmarks.}
 }
@@ -575,7 +570,6 @@
     url={https://arxiv.org/abs/2102.01454},
     code={https://github.com/krishnap25/mauve},
     prize={Outstanding Paper Award},
-    selected=true,
     preview={mauve.jpg},
     abstract={As major progress is made in open-ended text generation, measuring how close machine-generated text is to human language remains a critical open problem. We introduce MAUVE, a comparison measure for open-ended text generation, which directly compares the learnt distribution from a text generation model to the distribution of human-written text using divergence frontiers. MAUVE scales up to modern text generation models by computing information divergences in a quantized embedding space. Through an extensive empirical study on three open-ended generation tasks, we find that MAUVE identifies known properties of generated text, scales naturally with model size, and correlates with human judgments, with fewer restrictions than existing distributional evaluation metrics.}
 }
@@ -637,7 +631,6 @@
     year      = {2020},
     code      = {https://github.com/allenai/cartography},
     slides    = {https://slideslive.com/38939175},
-    selected  = true,
     preview   = {carto.jpg},
     abstract  = {Large datasets have become commonplace in NLP research. However, the increased emphasis on data quantity has made it challenging to assess the quality of data. We introduce Data Maps---a model-based tool to characterize and diagnose datasets. We leverage a largely ignored source of information: the behavior of the model on individual instances during training (training dynamics) for building data maps. This yields two intuitive measures for each example---the model's confidence in the true class, and the variability of this confidence across epochs---obtained in a single run of training. Experiments across four datasets show that these model-dependent measures reveal three distinct regions in the data map, each with pronounced characteristics. First, our data maps show the presence of "ambiguous" regions with respect to the model, which contribute the most towards out-of-distribution generalization. Second, the most populous regions in the data are "easy to learn" for the model, and play an important role in model optimization. Finally, data maps uncover a region with instances that the model finds "hard to learn"; these often correspond to labeling errors. Our results indicate that a shift in focus from quantity to quality of data could lead to robust models and improved out-of-distribution generalization.}
 }
@@ -651,7 +644,6 @@
     abbr      = {ACL},
     code  = {https://github.com/allenai/dont-stop-pretraining},
     prize = {Best Paper Honorable Mention},
-    selected=true,
     preview={dsp.png},
     abstract = {Language models pretrained on text from a wide variety of sources form the foundation of today's NLP. In light of the success of these broad-coverage models, we investigate whether it is still helpful to tailor a pretrained model to the domain of a target task. We present a study across four domains (biomedical and computer science publications, news, and reviews) and eight classification tasks, showing that a second phase of pretraining in-domain (domain-adaptive pretraining) leads to performance gains, under both high- and low-resource settings. Moreover, adapting to the task's unlabeled data (task-adaptive pretraining) improves performance even after domain-adaptive pretraining. Finally, we show that adapting to a task corpus augmented using simple data selection strategies is an effective alternative, especially when resources for domain-adaptive pretraining might be unavailable. Overall, we consistently find that multi-phase adaptive pretraining offers large gains in task performance.}
 }
@@ -739,7 +731,6 @@
   year={2018},
   url={https://arxiv.org/abs/1803.02324},
   poster={posters/artifacts-naacl.pdf},
-  selected=true,
   preview={annoart.png},
   code={https://github.com/swabhs/notebooks/blob/master/annotation_artifacts.ipynb},
   abstract = {Large-scale datasets for natural language inference are created by presenting crowd workers with a sentence (premise), and asking them to generate three new sentences (hypotheses) that it entails, contradicts, or is logically neutral with respect to. We show that, in a significant portion of such data, this protocol leaves clues that make it possible to identify the label by looking only at the hypothesis, without observing the premise. Specifically, we show that a simple text categorization model can correctly classify the hypothesis alone in about 67% of SNLI (Bowman et. al, 2015) and 53% of MultiNLI (Williams et. al, 2017). Our analysis reveals that specific linguistic phenomena such as negation and vagueness are highly correlated with certain inference classes. Our findings suggest that the success of natural language inference models to date has been overestimated, and that the task remains a hard open problem.}
