@@ -8,6 +8,8 @@
       year={2026},
       journal={Proc. of EMNLP Demo},
       abbr={EMNLP},
+      selected={true},
+      preview={coda.png},
       prize={Best Demo Paper (Runner Up)},
       url={https://arxiv.org/abs/2610.24157},
       abstract={We present CoDA, an open-source human-LM collaborative codebook development assistant that helps domain experts develop annotation guidelines for annotating new variables in unstructured text with language models. Existing language model annotation systems primarily focus on downstream classification performance, while assuming the availability of high-quality annotation guidelines, or codebooks. In practice, developing these codebooks is time-consuming and challenging, particularly for concepts that require expert knowledge. CoDA addresses this gap by collaborating with domain experts to iteratively develop codebooks through targeted review of incorrect language model predictions and incorporating expert feedback into the evolving codebook. We demonstrate CoDA on two real-world case studies: extracting health indicators from homelessness case management notes and classifying sentiment of wildlife trafficking posts on social media. Across both domains, CoDA produces codebooks that achieve downstream classification performance comparable to expert codebooks while reducing codebook development time from several weeks to two hours and requiring 5X fewer manually annotated examples. Applying CoDA to generate annotations at scale, we identified 2,410 case notes that contained health discussions or referrals and 10,196 social media posts expressing negative sentiment that may warrant investigation for potential wildlife trafficking. By accelerating codebook development, CoDA helps practitioners use language models to extract domain-specific insights from unstructured text at scale.}, 
@@ -34,19 +36,10 @@
       journal={Proc. of ICML},
       prize={Spotlight},
       selected=true,
+      preview={effective_rank.jpg},
       abbr={ICML},
       url={https://arxiv.org/abs/2602.20433},
       abstract={Geometric properties of Transformer weights, particularly the unembedding matrix, have been widely useful in language model interpretability research. Yet, their utility for estimating downstream performance remains unclear. In this work, we systematically investigate the relationship between model performance and the unembedding matrix geometry, particularly its effective rank. Our experiments, involving a suite of 108 OLMo-style language models trained under controlled variation, reveal several key findings. While the best-performing models often exhibit a high effective rank, this trend is not universal across tasks and training setups. Contrary to prior work, we find that low effective rank does not cause late-stage performance degradation in small models, but instead co-occurs with it; we find adversarial cases where low-rank models do not exhibit saturation. Moreover, we show that effective rank is strongly influenced by pre-training hyperparameters, such as batch size and weight decay, which in-turn affect the model's performance. Lastly, extending our analysis to other geometric metrics and final-layer representation, we find that these metrics are largely aligned, but none can reliably predict downstream performance. Overall, our findings suggest that the model's geometry, as captured by existing metrics, primarily reflects training choices rather than performance.},
-}
-
-@inproceedings{ranjit2026coda,
- title={CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation},
- author={Ranjit, Jaspreet and Chellappa, Swaminathan and Rivas Costante, Augusto and Manjunath, Chandan and Onasch-Vera, Laura and Winetrobe Nadel, Hailey and Rice, Eric and Swayamdipta, Swabha},
- booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},
- year={2026},
- url={},
- abbr={EMNLP},
- abstract={},
 }
 
 @article{ranjit2025nvdrs,
@@ -200,7 +193,6 @@
       author={Ryan Wang and Matthew Finlayson and Luca Soldaini and Swabha Swayamdipta and Robin Jia},
       year={2025},
       abbr={CoLM},
-      selected=true,
       preview={selective.jpg},
       journal={Conference on Language Modeling},
       url={https://arxiv.org/abs/2505.03052},
@@ -245,7 +237,6 @@
       year={2025},
       journal={Findings of ACL},
       abbr={ACL},
-      selected=true,
       preview={fictitious-watermarks.png},
       url={https://arxiv.org/abs/2503.04036},
       code={https://github.com/dill-lab/Fictitious_Fact_Watermarks},
@@ -309,7 +300,6 @@
       url={https://arxiv.org/abs/2406.14883},
       code={https://github.com/dill-lab/oath-frames},
       blog={https://dill-lab.github.io/oath-frames/},
-      selected=true,
       preview={oath_frames.jpg},
       abstract={Homelessness in the U.S. is widespread; individual beliefs and attitudes towards homelessness—often expressed on social media are complex and nuanced (e.g. critical as well as sympathetic). Such attitudes can be challenging to summarize at scale, obfuscating the broader public opinion which advocacy organizations use to guide public policy and reform efforts. Our work proposes an approach to enable a large-scale study on homelessness via two major contributions. First, with the help of domain experts in social work and their trainees, we characterize Online Attitudes towards Homelessness in nine hierarchical frames (OATH-Frames) on a collection of 4K social media posts. Further, in an effort to ease the annotation of these frames, we employ GPT-4 as an LLM assistant to the experts; GPT-4 + Expert annotation presents an attractive trade off owing to a 6.5× speedup in annotation time despite only incurring a 2 point F1 difference in annotation performance. Our effort results in a collection of 8K social media posts labeled by domain and trained experts (with and without GPT-4 assistance). Second, using predicted OATH-Frames on a Flan-T5-Large model trained on our data, we perform a large-scale analysis on 2.4M posts on homelessness. We find that posts that contain mentions of west coast states express more harmful generalizations of people experiencing homelessness (PEH) compared to posts about east coast states. We also find marked differences in attitudes across vulnerable populations as they are compared to PEH as being either more or less deserving of aid.},
 }
